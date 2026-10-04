@@ -31,7 +31,7 @@ A test server can use branch `dev` instead of `main`, or a tag like `v1.0.0` to 
 
 ## Pterodactyl
 
-1. Create the server with the **Fabric** egg:
+1. Create the server with the **Fabric** egg (not a CurseForge modpack egg: the pack runs on Fabric, CurseForge is only one of its download sites):
    - Docker image: **java 21**
    - `MC_VERSION` = `1.21.1`
    - `LOADER_VERSION` = `0.19.5`
