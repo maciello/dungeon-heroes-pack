@@ -3789,6 +3789,11 @@ hash = "eeba360744eb86ce98e7f647612eb6b4fae26f207aa873c8f75af2d51595594e"
 metafile = true
 
 [[files]]
+file = "mods/enchanting-infuser-add-treasure-enchantments.pw.toml"
+hash = "5e6f54349621f6be7ff92852910ccffe7378031c4b60e780a3a8dcf1f15bf2f7"
+metafile = true
+
+[[files]]
 file = "mods/enchanting-infuser.pw.toml"
 hash = "dd9c7893c79d19827eab2b1dfaa3ac7ba7c4ea4471db1a8a3d018ba1b1df2cfb"
 metafile = true
