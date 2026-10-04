@@ -28,12 +28,12 @@ Minecraft 1.21.1 needs Java 21. The launcher does not install it for you.
    **macOS:** download the macOS file, unpack it, and move PolyMC to *Applications*.
    **Linux:** download the **AppImage**, make it executable (right-click → *Properties → Allow executing*), and start it.
 3. Start PolyMC. The first-start window asks for language and Java:
-   - Click **Auto-detect** and pick the entry that says **21**.
+   - In the Java list, click the line whose version starts with **21**.
    - Leave memory as it is. The pack sets its own.
 
 ## Step 3: Add your Microsoft account
 
-1. In PolyMC, click **Accounts** (top right) → **Manage Accounts** → **Add Microsoft**.
+1. In PolyMC, click **Profiles** (top right) → **Manage Accounts...** → **Add Microsoft**.
 2. A browser page opens. Log in with the account that owns Minecraft.
 3. Back in PolyMC, your name appears. Close the window.
 
@@ -50,8 +50,8 @@ Minecraft 1.21.1 needs Java 21. The launcher does not install it for you.
 ## Step 5: First start
 
 1. Select **Dungeon Heroes** and click **Launch**.
-2. A window **Updating modpack** opens and downloads about 1100 files. The first time takes a few minutes. Wait.
-3. If it asks to update the Minecraft or Fabric version, click **Yes**. If the game does not start after that, click **Launch** again.
+2. A window **packwiz-installer** opens and downloads about 1100 files. The first time takes a few minutes. Wait.
+3. If a window **Updating MultiMC versions** opens, click **Update**. If the game does not start after that, click **Launch** again.
 4. The game opens. The first start is slow (it loads about 340 mods).
 
 ## Step 6: Join the server
@@ -71,8 +71,8 @@ If the server kicks you with a mod mismatch, close the game and launch again.
 
 | problem | fix |
 |---|---|
-| "Java" error when you click Launch | Right-click the instance → **Edit → Settings → Java** → tick *Java installation* → **Auto-detect** → pick **21**. |
-| Game crashes with "out of memory" | Same place → *Memory* → set **Maximum memory** to 8192 MB or more. |
+| "Java" error when you click Launch | Right-click the instance → **Edit Instance...** → **Settings** → tick **Java installation** → **Auto-detect...** → pick the line that starts with **21**. |
+| Game crashes with "out of memory" | Same place → tick **Memory** → set **Maximum memory allocation** to 8192 MiB or more. |
 | Download failed | Click **Launch** again. It continues where it stopped. |
 | A window asks you to download a file by hand | Tell the host. Do not download mods from other sites. |
 | Cannot connect to the server | Check the address and your invite with the host. |
@@ -82,4 +82,4 @@ If the server kicks you with a mod mismatch, close the game and launch again.
 - Your own settings (keys, video, sound) are yours. Updates never change them.
 - Mod settings that come with the pack can reset when the pack updates.
 - Do not add or remove mods in this instance. Your game must match the server.
-- The pack version shows in the *Updating modpack* window. All versions: [Tags](https://github.com/maciello/dungeon-heroes-pack/tags).
+- All pack versions: [Tags](https://github.com/maciello/dungeon-heroes-pack/tags).
