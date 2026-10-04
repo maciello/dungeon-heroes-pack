@@ -19,7 +19,7 @@ bash start.sh <PACK_URL>
 
 1. It runs [packwiz-installer-bootstrap](https://github.com/packwiz/packwiz-installer-bootstrap) with `-g -s server <PACK_URL>`:
    - `-g` = no window (servers have no screen).
-   - `-s server` = server mods only. Client-only mods (minimaps, shaders, …) are skipped.
+   - `-s server` = server mods only. Client-only mods (shaders, HUD and tooltip tweaks, …) are skipped.
    - It downloads only files that changed, and it removes mods that the pack removed.
 2. Then it starts Minecraft.
 
@@ -28,6 +28,11 @@ bash start.sh <PACK_URL>
 https://raw.githubusercontent.com/maciello/dungeon-heroes-pack/main/pack.toml
 ```
 A test server can use branch `dev` instead of `main`, or a tag like `v1.0.0` to stay on one version.
+
+## Mods on the server
+
+- No extra server mods and no extra ports. Every server part comes with the pack.
+- **Distant Horizons** is already in the pack. Its server part starts by itself (console: `Distant Horizons server Initialized`) and sends far terrain to players.
 
 ## Pterodactyl
 
