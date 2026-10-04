@@ -66,7 +66,7 @@ A test server can use branch `dev` instead of `main`, or a tag like `v1.0.0` to 
 
 ## Updates
 
-- A new pack version is live when a new tag `v…` appears under [Tags](https://github.com/maciello/dungeon-heroes-pack/tags).
+- A new pack version is live when a new release `v…` appears under [Releases](https://github.com/maciello/dungeon-heroes-pack/releases). Its notes say what changed.
 - **Make a backup first**, then restart the server. It pulls the new version on start.
 - Players get the same version at their next launch.
 

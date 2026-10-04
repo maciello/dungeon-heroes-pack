@@ -82,4 +82,4 @@ If the server kicks you with a mod mismatch, close the game and launch again.
 - Your own settings (keys, video, sound) are yours. Updates never change them.
 - Mod settings that come with the pack can reset when the pack updates.
 - Do not add or remove mods in this instance. Your game must match the server.
-- All pack versions: [Tags](https://github.com/maciello/dungeon-heroes-pack/tags).
+- All pack versions and what changed: [Releases](https://github.com/maciello/dungeon-heroes-pack/releases).
