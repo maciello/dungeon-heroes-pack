@@ -1,0 +1,13 @@
+name = "NoRecipeBook"
+filename = "norecipebook-3.4+1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/TvL1V8O5/versions/SRuAL84d/norecipebook-3.4%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "703752fb4602a947b956d6f02e427321e8f4a45c0b7617564b6b0717fe3fae4151d97758f78e3ecd822969386da45135c9cf4101977da39fa2febd9518de4aa7"
+
+[update]
+[update.modrinth]
+mod-id = "TvL1V8O5"
+version = "SRuAL84d"

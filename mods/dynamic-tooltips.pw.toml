@@ -1,0 +1,13 @@
+name = "Dynamic Tooltips"
+filename = "dynamic-tooltips-0.5.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yakHVeQt/versions/yrM5zOgk/dynamic-tooltips-0.5.0.jar"
+hash-format = "sha512"
+hash = "c423354995181eb861cd3e81474fd6de1a52f7ce5ccb7b059ce1cc730ce86854b848fc2bef1c697c93de8389ba81b4f2297c9b7958efab669ff31358dc292266"
+
+[update]
+[update.modrinth]
+mod-id = "yakHVeQt"
+version = "yrM5zOgk"

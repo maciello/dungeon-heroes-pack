@@ -1,0 +1,13 @@
+name = "Rotten Recycler"
+filename = "rotten-leather-fabric-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/KFcQBfZM/versions/5bxgZw0P/rotten-leather-fabric-1.21.1-1.0.0.jar"
+hash-format = "sha512"
+hash = "2e0e3798a3a174260e7f04ba72d942c904de8ba1ab60a3cc3b5324e74b6fe1b539ee09a13c384a1c1b6639a04f61f300d9fab09ff6c4b76bacd708c685b7deb3"
+
+[update]
+[update.modrinth]
+mod-id = "KFcQBfZM"
+version = "5bxgZw0P"

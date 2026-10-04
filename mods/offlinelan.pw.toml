@@ -1,0 +1,13 @@
+name = "OfflineLAN"
+filename = "offlinelan-2.0.0+1.19.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/pimmstPB/versions/TUr44TBP/offlinelan-2.0.0%2B1.19.4.jar"
+hash-format = "sha512"
+hash = "56002f0b35b3cdef4e65b140446f869a7828fb9e421186c5583b5b062f6a0ec83caece994babfffdd41f233320cbb3d334b1d75751d17beb02ef11c34fb8aa65"
+
+[update]
+[update.modrinth]
+mod-id = "pimmstPB"
+version = "TUr44TBP"

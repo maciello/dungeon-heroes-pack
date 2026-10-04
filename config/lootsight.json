@@ -1,0 +1,15 @@
+{
+  "enabled": false,
+  "goodRange": 1024,
+  "searchResults": 9,
+  "maxIcons": 3,
+  "scanSavedChunks": true,
+  "gear": true,
+  "minGearTier": 3,
+  "jewelry": true,
+  "relics": true,
+  "gems": true,
+  "upgrades": true,
+  "books": true,
+  "rare": true
+}

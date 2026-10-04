@@ -1,0 +1,64 @@
+{
+  "shields": {
+    "lne_paladins:ender_dragon_shield": {
+      "durability": 4032,
+      "attributes": [
+        {
+          "attribute": "generic.attack_speed",
+          "value": 0.05,
+          "operation": "ADD_MULTIPLIED_BASE"
+        },
+        {
+          "attribute": "generic.max_health",
+          "value": 6.0,
+          "operation": "ADD_VALUE"
+        }
+      ]
+    },
+    "lne_paladins:elder_guardian_shield": {
+      "durability": 4032,
+      "attributes": [
+        {
+          "attribute": "more_rpg_classes:damage_reflect_modifier",
+          "value": 0.35,
+          "operation": "ADD_MULTIPLIED_BASE"
+        },
+        {
+          "attribute": "generic.max_health",
+          "value": 6.0,
+          "operation": "ADD_VALUE"
+        }
+      ]
+    },
+    "lne_paladins:glacial_shield": {
+      "durability": 4032,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 1.0,
+          "operation": "ADD_VALUE"
+        },
+        {
+          "attribute": "generic.max_health",
+          "value": 6.0,
+          "operation": "ADD_VALUE"
+        }
+      ]
+    },
+    "lne_paladins:wither_shield": {
+      "durability": 4032,
+      "attributes": [
+        {
+          "attribute": "generic.attack_damage",
+          "value": 0.05,
+          "operation": "ADD_MULTIPLIED_BASE"
+        },
+        {
+          "attribute": "generic.max_health",
+          "value": 6.0,
+          "operation": "ADD_VALUE"
+        }
+      ]
+    }
+  }
+}

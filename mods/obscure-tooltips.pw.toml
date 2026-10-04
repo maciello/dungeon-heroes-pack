@@ -1,0 +1,13 @@
+name = "Obscure Tooltips"
+filename = "obscure_tooltips-fabric-1.21.1-4.2.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/5vetjDBY/versions/nGpQcruw/obscure_tooltips-fabric-1.21.1-4.2.4.jar"
+hash-format = "sha512"
+hash = "99a111c5abda42c646a2f4b01cc3e8bb757f447d7cf823f82306f98e888a909a28a8d1482f496588e2ebc49db9fa1e0532ebc94d27e9f365b9230c33c0f8ef93"
+
+[update]
+[update.modrinth]
+mod-id = "5vetjDBY"
+version = "nGpQcruw"

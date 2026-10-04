@@ -1,0 +1,13 @@
+name = "Formidulus"
+filename = "formidulus-0.1.2-beta.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VOFv2Rsg/versions/KPdKLHjS/formidulus-0.1.2-beta.jar"
+hash-format = "sha512"
+hash = "38ed8e066617f07d5392dbf2953b3a7d5e80cbb4f62a49dfa0f5005154a7009277b31565c51e2caf5cc65b45540fb8c82357118eff6374f863698af47ae93aa1"
+
+[update]
+[update.modrinth]
+mod-id = "VOFv2Rsg"
+version = "KPdKLHjS"

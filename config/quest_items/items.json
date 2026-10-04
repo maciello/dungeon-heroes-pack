@@ -1,0 +1,144 @@
+{
+  "items": {
+    "quest_items:pharaohs_mask": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:ancient_king_scepter": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:red_urn": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:desert_rose": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:shackles": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:wildfire_essence": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:rotten_heart": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:frozen_grail": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:wither_ribcage": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:corruption_orb": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:corrupted_grail": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:skeletal_hand": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:stone_idol": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:toxic_vial": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:undead_essence": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:sack_of_magic_dust": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:mossy_tablet": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:molten_tablet": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:tribal_totem": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:evil_codex": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:aether_essence": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:black_pearl": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:cursed_crown": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:deep_see_crystal": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:frozen_skull": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:golden_lantern": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:magnificent_clam_shell": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:silver_feather": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:unholy_candle": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:warden_ears": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:crystal_petal": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:steel_heart": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:supercooled_core": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:wicked_tentacle": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    },
+    "quest_items:portal_frame": {
+      "rarity": "UNCOMMON",
+      "fireproof": true
+    }
+  }
+}

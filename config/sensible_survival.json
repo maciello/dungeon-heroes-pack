@@ -1,0 +1,17 @@
+{
+  "equipment_takes_damage_chance": 1.0,
+  "equipment_damage_cap": 1,
+  "equipment_damage_multiplier": 0.5,
+  "shield_takes_damage_chance": 1.0,
+  "shield_damage_cap": 3,
+  "shield_damage_multiplier": 0.5,
+  "anvil_no_prior_work_penalty": true,
+  "anvil_no_level_limit": true,
+  "no_hurt_effect_on_max_health_loss": true,
+  "xp_share_enabled": true,
+  "xp_share_radius": 64.0,
+  "xp_share_teammates_only": true,
+  "xp_share_random_remainder": true,
+  "no_surface_lava_lakes": false,
+  "no_zombie_villages": false
+}

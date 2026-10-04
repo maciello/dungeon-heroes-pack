@@ -1,0 +1,779 @@
+{
+  "injectors": {
+    "minecraft:chests/abandoned_mineshaft": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_0_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "minecraft:chests/igloo_chest": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_0_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "minecraft:chests/shipwreck_supply": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_0_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "minecraft:chests/spawn_bonus_chest": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_0_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "minecraft:chests/desert_pyramid": {
+      "rolls": 0.4,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_1_buffs",
+          "weight": 2
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_2_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "minecraft:chests/shipwreck_treasure": {
+      "rolls": 0.4,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_1_buffs",
+          "weight": 2
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_2_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "minecraft:chests/underwater_ruin_small": {
+      "rolls": 0.4,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_1_buffs",
+          "weight": 2
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_2_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "minecraft:chests/jungle_temple": {
+      "rolls": 0.4,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_1_buffs",
+          "weight": 2
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_2_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "minecraft:chests/pillager_outpost": {
+      "rolls": 0.4,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_1_buffs",
+          "weight": 2
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_2_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "minecraft:chests/woodland_mansion": {
+      "rolls": 0.4,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_1_buffs",
+          "weight": 2
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_2_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "minecraft:chests/underwater_ruin_big": {
+      "rolls": 0.4,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_1_buffs",
+          "weight": 2
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_2_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "minecraft:chests/stronghold/library": {
+      "rolls": 0.4,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_1_buffs",
+          "weight": 2
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_2_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "minecraft:chests/ancient_city": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_2_buffs",
+          "weight": 2
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_3_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "minecraft:chests/end_city_treasure": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_2_buffs",
+          "weight": 2
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_3_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "minecraft:chests/trial_chambers/reward_ominous_rare": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_2_buffs",
+          "weight": 2
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_3_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "minecraft:chests/trial_chambers/reward_rare": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_2_buffs",
+          "weight": 2
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_3_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "minecraft:chests/trial_chambers/reward_ominous_unique": {
+      "rolls": 0.7,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_3_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "minecraft:chests/trial_chambers/reward_unique": {
+      "rolls": 0.7,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_3_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:chests/inns/desert": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_0_buffs",
+          "weight": 1
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_1_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:chests/inns/plains": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_0_buffs",
+          "weight": 1
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_1_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:chests/vilages/plains/small_inn": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_0_buffs",
+          "weight": 1
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_1_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:chests/vilages/desert/small_inn": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_0_buffs",
+          "weight": 1
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_1_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:chests/vilages/savanna/small_inn": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_0_buffs",
+          "weight": 1
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_1_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:chests/vilages/snowy/small_inn": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_0_buffs",
+          "weight": 1
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_1_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:chests/vilages/taiga/small_inn": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_0_buffs",
+          "weight": 1
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_1_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:chests/dungeons/reward_glacial_tomb": {
+      "rolls": 0.75,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_2_weapons",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_2_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:spawners/frozen/normal/reward": {
+      "rolls": 0.75,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_2_weapons",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_2_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:spawners/frozen/ominous/reward": {
+      "rolls": 0.75,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_2_weapons",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_2_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:chests/trials/frozen/reward_ominous_common": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_1_weapons",
+          "weight": 2
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_armors",
+          "weight": 2
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_relics",
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:chests/trials/frozen/trial_chambers/reward_common": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_1_weapons",
+          "weight": 2
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_armors",
+          "weight": 2
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_relics",
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:chests/trials/frozen/reward_ominous_unique": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_3_weapons",
+          "weight": 2,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_4_accessories",
+          "weight": 2
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_3_relics",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_4_armors",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_3_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:chests/trials/frozen/reward_unique": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_3_weapons",
+          "weight": 2,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_4_accessories",
+          "weight": 2
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_3_relics",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_4_armors",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_3_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:entities/frost_monarch": {
+      "rolls": 2.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_3_weapons",
+          "weight": 4,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_3_armors",
+          "weight": 4,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_3_accessories",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_3_relics",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_5_weapons",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_5_armors",
+          "weight": 1
+        }
+      ]
+    },
+    "village_taverns:chests/tavern": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_0_buffs",
+          "weight": 1
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_1_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "aether:chests/dungeon/silver/silver_dungeon_reward": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_2_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "aether:chests/dungeon/gold/gold_dungeon_reward": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_3_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/undead_crypts_grave": {
+      "rolls": 0.1,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_1_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/ancient_city": {
+      "rolls": 0.25,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_2_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/desert_ruins/desert_ruin_main_temple": {
+      "rolls": 0.4,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_1_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/end_castle/greater_loot": {
+      "rolls": 0.35,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_3_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "graveyard:chests/large_loot": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_1_buffs",
+          "weight": 1
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_2_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "betterdungeons:zombie_dungeon/chests/special": {
+      "rolls": 0.3,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_0_buffs",
+          "weight": 1
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_1_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "betterdungeons:zombie_dungeon/chests/tombstone": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_2_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "betterdeserttemples:chests/tomb_pharaoh": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_2_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "betterstrongholds:chests/grand_library": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_2_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "philipsruins:chest/badlands_dungeon_loot_high": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_1_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "philipsruins:chest/end_ruins_loot": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_2_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "betternether:chests/city_surprise": {
+      "rolls": 0.35,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_3_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "betterend:chests/shadow_forest": {
+      "rolls": 0.35,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_2_buffs",
+          "weight": 1
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_3_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "dungeons_arise:chests/bathhouse/bathhouse_normal": {
+      "rolls": 0.25,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_1_buffs",
+          "weight": 1
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_2_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "dungeons_arise:chests/jungle_tree_house/jungle_tree_house_treasure": {
+      "rolls": 0.25,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_0_buffs",
+          "weight": 1
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_1_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "dungeons_arise:chests/undead_pirate_ship/undead_pirate_ship_treasure": {
+      "rolls": 0.25,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_0_buffs",
+          "weight": 1
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_1_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "dungeons_arise:chests/mushroom_house/mushroom_house_treasure": {
+      "rolls": 0.25,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_0_buffs",
+          "weight": 1
+        },
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_1_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "dungeons_arise:chests/plague_asylum/plague_asylum_treasure": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_2_buffs",
+          "weight": 1
+        }
+      ]
+    },
+    "dungeons_arise:chests/shiraz_palace/shiraz_palace_treasure": {
+      "rolls": 0.35,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#loot_n_explore:innkeeper_items/tier_3_buffs",
+          "weight": 1
+        }
+      ]
+    }
+  },
+  "regex_injectors": {},
+  "fallback": {
+    "rolls_multiplier": 1.0,
+    "tables": "~:chests/",
+    "blacklist": [],
+    "entries": []
+  }
+}

@@ -1,0 +1,13 @@
+name = "Kev's Attributes Panel"
+filename = "kevs_attributes_panel-fabric-1.3.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1hQgsACh/versions/dYgeAhYB/kevs_attributes_panel-fabric-1.3.4.jar"
+hash-format = "sha512"
+hash = "aa18721109f8ebde0c7bb8057eff76f1365f3c6af43cef88f8693bec6427cfe0dc5a194e4cee31c4f9aa693b5e8f5068c51291c423947e58c63cc41779273eb1"
+
+[update]
+[update.modrinth]
+mod-id = "1hQgsACh"
+version = "dYgeAhYB"

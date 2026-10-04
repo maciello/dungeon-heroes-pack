@@ -1,0 +1,41 @@
+{
+  "active": "Default",
+  "profiles": [
+    {
+      "name": "Default",
+      "rules": [
+        {
+          "enabled": true,
+          "action": "HIGHLIGHT",
+          "text": "crystal arcane staff",
+          "category": "any",
+          "minTier": 0
+        },
+        {
+          "enabled": true,
+          "action": "HIDE",
+          "text": "curse of",
+          "category": "any",
+          "minTier": 0
+        },
+        {
+          "enabled": true,
+          "action": "HIDE",
+          "text": "minecraft:enchanted_golden_apple",
+          "category": "any",
+          "minTier": 0
+        }
+      ]
+    }
+  ],
+  "recent": [
+    "relic",
+    "arcane",
+    "arcaned",
+    "robe",
+    "topaz",
+    "topaz necklace",
+    "necklace",
+    "netherite"
+  ]
+}

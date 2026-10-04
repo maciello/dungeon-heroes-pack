@@ -1,0 +1,153 @@
+{
+  // -----------------------------------------------------------
+  //              Item Obliterator by ElocinDev
+  // -----------------------------------------------------------
+  //  
+  // How to add items?
+  //   - They are json strings, so you need to separate each
+  //     entry with a comma, except the last
+  //   - If you start an entry with !, it will be treated as a regular expression
+  //     Example: "!minecraft:.*_sword" to disable all swords
+  //  
+  // -----------------------------------------------------------
+  // Do not touch this
+  "configVersion": 3,
+  // -----------------------------------------------------------
+  // Items here will be unusable completely
+  //    Example: minecraft:diamond
+  "blacklisted_items": [
+    "examplemod:example_item",
+    "revive:revival_star",
+
+    "endrem:exotic_eye",
+
+    "!aether:.*_ring",
+    "!aether:.*_pendant",
+    "!aether:.*_gloves",
+    "!aether:.*_cape",
+    "aether:invisibility_cloak",
+    "aether:regeneration_stone",
+    "aether:valkyrie_lance",
+    "aether:shield_of_repulsion",
+    "aether:iron_bubble",
+    "aether:cloud_staff",
+    "aether:hammer_of_kingbdogz",
+    "aether:holy_sword",
+    "aether:lightning_knife",
+    "aether:lightning_sword",
+    "aether:flaming_sword",
+    "aether:phoenix_bow",
+    "aether:pig_slayer",
+
+    "!eternal_starlight:.*bow",
+    "!eternal_starlight:.*arrow",
+    "eternal_starlight:starfall_longbow",
+    "eternal_starlight:wand_of_teleportation",
+    "illagerinvasion:platinum_chunk",
+    "bosses_of_mass_destruction:mob_ward",
+    "bosses_of_mass_destruction:charged_ender_pearl",
+    "bosses_of_mass_destruction:earthdive_spear",
+    "formidulus:soul_dagger",
+    "formidulus:sacrificial_dagger",
+    "formidulus:bulwark",
+    "formidulus:great_lantern",
+    "formidulus:jolly_hat",
+    "gliding:stone_glider",
+    "gliding:golden_glider",
+    "!betterend:crystalite.*",
+    "betterend:elytra_crystalite",
+    "betterend:terminite_helmet",
+    "betterend:terminite_chestplate",
+    "betterend:terminite_leggings",
+    "betterend:terminite_boots",
+    "betterend:thallasium_helmet",
+    "betterend:thallasium_chestplate",
+    "betterend:thallasium_leggings",
+    "betterend:thallasium_boots",
+    "endrem:witch_pupil",
+    "endrem:undead_soul",
+
+    "mebahelcreaturesdraugr:ebony_ingot",
+    "mebahelcreaturesdraugr:ebony_scrap",
+    "mebahelcreaturesdraugr:ebony_arrow",
+    "mebahelcreaturesdraugr:stalhrim",
+    "mebahelcreaturesdraugr:stalhrim_sword",
+    "mebahelcreaturesdraugr:bow/ancient_nord/ancient_nord_bow",
+    "mebahelcreaturesdraugr:bow/ebony_bow",
+    "mebahelcreaturesdraugr:magical_stone/frost_bite_magical_stone",
+    "mebahelcreaturesdraugr:magical_stone/frost_spike_magical_stone",
+    "mebahelcreaturesdraugr:lesser_soul_gem",
+    "mebahelcreaturesdraugr:common_soul_gem",
+    "mebahelcreaturesdraugr:greater_soul_gem",
+    "mebahelcreaturesdraugr:draugr_awakening_soul_gem",
+    "mebahelcreaturesdraugr:filled_draugr_awakening_soul_gem",
+    "mebahelcreaturesdraugr:sublime_soul_gem",
+    "!mebahelcreaturesdraugr:staff/.*",
+    "!mebahelcreaturesdraugr:weapon/.*",
+    "!mebahelcreaturesdraugr:bow/.*",
+    
+    "minecells:assassins_dagger",
+    "minecells:blood_sword",
+    "minecells:broadsword",
+    "minecells:balanced_blade",
+    "minecells:crowbar",
+    "minecells:nutcracker",
+    "minecells:cursed_sword",
+    "minecells:hattoris_katana",
+    "minecells:tentacle",
+    "minecells:frost_blast",
+    "minecells:spite_sword",
+    "minecells:flint",
+    "minecells:phaser",
+    "!minecells:.*bow",
+    "minecells:bow_and_endless_quiver",
+    "minecells:nerves_of_steel",
+    "!minecells:.*shield",
+    "minecells:cudgel",
+    "minecells:rampart",
+    "minecells:electric_whip",
+    "minecells:lightning_bolt",
+    "minecells:throwing_knife",
+    "minecells:firebrands"
+  ],
+  // -----------------------------------------------------------
+  // Removes an item if it contains certain Component Data. If the whole entry (or expression) is present, the item gets removed.
+  // Use with caution! This is a very expensive operation and can cause lag if you have a lot of items blacklisted.
+  // 	
+  // 	 Example to disable a regeneration potion: Potion:"minecraft:regeneration"
+  // 	
+  // 	 You can also use regular expressions by starting the value with !
+  "blacklisted_component_data": [],
+  // -----------------------------------------------------------
+  // If true, the mod will log all components of your main hand item every second.
+  // This is useful for finding the specific component data of an item to blacklist it.
+  //  
+  // Only enable it if you need it, as this is only meant to be used for debugging.
+  "debug_print_components": false,
+  // -----------------------------------------------------------
+  // Items here will not be able to be right-clicked (Interact)
+  //    Example: minecraft:apple
+  "only_disable_interactions": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // Items here will not be able to be used to attack
+  //    Example: minecraft:diamond_sword
+  "only_disable_attacks": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // Items here will get their recipes disabled
+  // Keep in mind this already is applied to blacklisted items
+  "only_disable_recipes": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // If true, the mod will use a hashset to handle the blacklisted items
+  // This is a more optimized approach only if you have a lot of items blacklisted (20 or more is recommended)
+  // If you just have a small amount of items blacklisted, keep this false
+  //  
+  // [!] Enabling this will disable all regular expressions
+  // [!] Does not apply to NBT, only item blacklist / interaction / attack
+  "use_hashmap_optimizations": false
+}

@@ -1,0 +1,93 @@
+{
+  "weapons": {
+    "ender_dragon_sword": {
+      "attack_damage": 8.0,
+      "attack_speed": -2.4,
+      "attributes": [
+        {
+          "attribute": "spell_power:arcane",
+          "value": 2.0,
+          "operation": "ADD_VALUE"
+        }
+      ]
+    },
+    "ender_dragon_axe": {
+      "attack_damage": 10.0,
+      "attack_speed": -3.0,
+      "attributes": [
+        {
+          "attribute": "spell_power:arcane",
+          "value": 2.0,
+          "operation": "ADD_VALUE"
+        }
+      ]
+    },
+    "wither_sword": {
+      "attack_damage": 8.0,
+      "attack_speed": -2.4,
+      "attributes": [
+        {
+          "attribute": "spell_power:soul",
+          "value": 2.0,
+          "operation": "ADD_VALUE"
+        }
+      ]
+    },
+    "wither_axe": {
+      "attack_damage": 10.0,
+      "attack_speed": -3.0,
+      "attributes": [
+        {
+          "attribute": "spell_power:soul",
+          "value": 2.0,
+          "operation": "ADD_VALUE"
+        }
+      ]
+    },
+    "glacial_sword": {
+      "attack_damage": 8.0,
+      "attack_speed": -2.4,
+      "attributes": [
+        {
+          "attribute": "spell_power:frost",
+          "value": 2.0,
+          "operation": "ADD_VALUE"
+        }
+      ]
+    },
+    "glacial_axe": {
+      "attack_damage": 10.0,
+      "attack_speed": -3.0,
+      "attributes": [
+        {
+          "attribute": "spell_power:frost",
+          "value": 2.0,
+          "operation": "ADD_VALUE"
+        }
+      ]
+    },
+    "elder_guardian_sword": {
+      "attack_damage": 8.0,
+      "attack_speed": -2.4,
+      "attributes": [
+        {
+          "attribute": "spell_power:water",
+          "value": 2.0,
+          "operation": "ADD_VALUE"
+        }
+      ]
+    },
+    "elder_guardian_axe": {
+      "attack_damage": 10.0,
+      "attack_speed": -3.0,
+      "attributes": [
+        {
+          "attribute": "spell_power:water",
+          "value": 2.0,
+          "operation": "ADD_VALUE"
+        }
+      ]
+    }
+  },
+  "armor_sets": {}
+}

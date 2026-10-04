@@ -1,0 +1,59 @@
+# Don't change this! Version used to track needed updates.
+version = 2
+
+[disabler]
+disabledEnchantmentsV2 = [
+    [ "betternether:obsidian_breaker", { table = false, loot = false, trade = false } ],
+    [ "eternal_starlight:poisoning", { table = false, loot = false, trade = false } ],
+    [ "eternal_starlight:soul_snatcher", { table = false, loot = false, trade = false } ],
+    [ "eternal_starlight:fearless", { table = false, loot = false, trade = false } ],
+    [ "eternal_starlight:fertile", { table = false, loot = false, trade = false } ],
+    [ "eternal_starlight:glacial_sowing", { table = false, loot = false, trade = false } ],
+    [ "eternal_starlight:tearing", { table = false, loot = false, trade = false } ],
+    [ "nova_structures:ghasted", { table = false, loot = false, trade = false } ],
+    [ "nova_structures:gravity", { table = false, loot = false, trade = false } ],
+    [ "nova_structures:outreach", { table = false, loot = false, trade = false } ],
+    [ "nova_structures:piercing", { table = false, loot = false, trade = false } ],
+    [ "nova_structures:power", { table = false, loot = false, trade = false } ],
+    [ "nova_structures:traveler", { table = false, loot = false, trade = false } ],
+    [ "nova_structures:shulker_boss", { table = false, loot = false, trade = false } ],
+    [ "farmersdelight:backstabbing", { table = false, loot = false, trade = false } ],
+    [ "dungeons_arise:discharge", { table = false, loot = false, trade = false } ],
+    [ "dungeons_arise:ensnaring", { table = false, loot = false, trade = false } ],
+    [ "dungeons_arise:lolths_curse", { table = false, loot = false, trade = false } ],
+    [ "dungeons_arise:purification", { table = false, loot = false, trade = false } ],
+    [ "dungeons_arise:voltaic_shot", { table = false, loot = false, trade = false } ],
+    [ "mebahelcreaturesdraugr:soul_gem_quick_cast", { table = false, loot = false, trade = false } ],
+    [ "mebahelcreaturesdraugr:soul_gem_spell_multishot", { table = false, loot = false, trade = false } ],
+    [ "mebahelcreaturesdraugr:soul_gem_spell_power", { table = false, loot = false, trade = false } ]
+]
+disabledEnchantments = [  ]
+
+[maxLevel]
+maxLevels = [  ]
+globalMaxLevel = 0
+limitObtainableEnchantmentLevel = false
+obtainableEnchantmentLevels = [  ]
+
+[trades]
+limitBookTradeLevel = false
+bookTradeLevelLimit = 5
+modifyEnchantedBookTradeUses = false
+maxEnchantedBookTradeUses = 12
+modifyEnchantedItemTradeUses = false
+maxEnchantedItemTradeUses = 3
+enchantedBookTradeRestockEnabled = true
+enchantedItemTradeRestockEnabled = true
+
+[enchantingTable]
+enchantingTableEnabled = true
+modifyMaxTablePower = false
+maxTablePower = 15
+modifyLapisCost = false
+lapisCostFormula = "i+1"
+modifyXpCost = false
+xpCostFormula = "i+1"
+
+[loot]
+modifyEnchantWithLevelsMaxPower = false
+enchantWithLevelsMaxPower = 50

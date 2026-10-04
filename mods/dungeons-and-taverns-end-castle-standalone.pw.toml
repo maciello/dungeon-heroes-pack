@@ -1,0 +1,13 @@
+name = "[RETIRED] Dungeons and Taverns End Castle Standalone"
+filename = "dungeons-and-taverns-end-castle-standalone-v1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WIs8E6hv/versions/WsfpdvNg/dungeons-and-taverns-end-castle-standalone-v1.1.jar"
+hash-format = "sha512"
+hash = "ee8e7209d61794b9eeab7930a3e9fe62eacf5e157e88fe07b9d07a289cff8865355cdf951da13ea4b82530db1f247e68edb07782b11d109c962a016ac865b5ba"
+
+[update]
+[update.modrinth]
+mod-id = "WIs8E6hv"
+version = "WsfpdvNg"

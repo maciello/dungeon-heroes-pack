@@ -1,0 +1,28 @@
+{
+  "projectileMobConfig": {
+    "entities": [],
+    "enabled": true,
+    "maxHitsBeforeCooldown": 10,
+    "cooldownTicks": 20,
+    "timeWithoutHitResetTicks": 20
+  },
+  "projectilePlayerConfig": {
+    "enabled": false,
+    "maxHitsBeforeCooldown": 6,
+    "cooldownTicks": 40,
+    "timeWithoutHitResetTicks": 40
+  },
+  "meleeMobConfig": {
+    "entities": [],
+    "enabled": false,
+    "maxHitsBeforeCooldown": 10,
+    "cooldownTicks": 20,
+    "timeWithoutHitResetTicks": 20
+  },
+  "meleePlayerConfig": {
+    "enabled": false,
+    "maxHitsBeforeCooldown": 6,
+    "cooldownTicks": 40,
+    "timeWithoutHitResetTicks": 40
+  }
+}

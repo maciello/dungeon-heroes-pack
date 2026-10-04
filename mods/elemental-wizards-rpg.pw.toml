@@ -1,0 +1,13 @@
+name = "Elemental Wizards (RPG Series Plus)"
+filename = "elemental_wizards_rpg-fabric-3.1.1+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PeZ4h4i0/versions/ZYBrICvq/elemental_wizards_rpg-fabric-3.1.1%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "e92d06f8e6701922b3bd5d434aed1e2c6b63d63d8634561ceb48a7cf9dd7358e5ced127e375f5f35ce5e15ddc442d9adff98f4e42ccc227fb6d308b6ff2e5a50"
+
+[update]
+[update.modrinth]
+mod-id = "PeZ4h4i0"
+version = "ZYBrICvq"

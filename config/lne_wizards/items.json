@@ -1,0 +1,71 @@
+{
+  "weapons": {
+    "glacial_staff_frost": {
+      "attack_damage": 4.0,
+      "attack_speed": -3.0,
+      "attributes": [
+        {
+          "attribute": "spell_power:frost",
+          "value": 8.0,
+          "operation": "ADD_VALUE"
+        }
+      ]
+    },
+    "wither_staff_fire": {
+      "attack_damage": 4.0,
+      "attack_speed": -3.0,
+      "attributes": [
+        {
+          "attribute": "spell_power:fire",
+          "value": 8.0,
+          "operation": "ADD_VALUE"
+        }
+      ]
+    },
+    "ender_dragon_staff_arcane": {
+      "attack_damage": 4.0,
+      "attack_speed": -3.0,
+      "attributes": [
+        {
+          "attribute": "spell_power:arcane",
+          "value": 8.0,
+          "operation": "ADD_VALUE"
+        }
+      ]
+    },
+    "elder_guardian_staff_aqua": {
+      "attack_damage": 4.0,
+      "attack_speed": -3.0,
+      "attributes": [
+        {
+          "attribute": "spell_power:water",
+          "value": 8.0,
+          "operation": "ADD_VALUE"
+        }
+      ]
+    },
+    "wither_staff_terra": {
+      "attack_damage": 4.0,
+      "attack_speed": -3.0,
+      "attributes": [
+        {
+          "attribute": "spell_power:earth",
+          "value": 8.0,
+          "operation": "ADD_VALUE"
+        }
+      ]
+    },
+    "ender_dragon_staff_wind": {
+      "attack_damage": 4.0,
+      "attack_speed": -3.0,
+      "attributes": [
+        {
+          "attribute": "spell_power:air",
+          "value": 8.0,
+          "operation": "ADD_VALUE"
+        }
+      ]
+    }
+  },
+  "armor_sets": {}
+}

@@ -1,0 +1,13 @@
+name = "WITS (What Is This Structure?)"
+filename = "wits-fabric-1.3.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/AVo2esap/versions/Fu92Hgpi/wits-fabric-1.3.1.jar"
+hash-format = "sha512"
+hash = "921b7a95fc6a7b36e6eb74fa734d293e6454686b7f4f95690fc896792ac32a6e344573f1472c9db98d32d7d4f94fdd28df95f359950e3448dfcbced7ec599dab"
+
+[update]
+[update.modrinth]
+mod-id = "AVo2esap"
+version = "Fu92Hgpi"

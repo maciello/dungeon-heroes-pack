@@ -1,0 +1,13 @@
+name = "Rogues & Warriors (RPG Series)"
+filename = "rogues-fabric-3.1.1+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "999a36f2ac99a86ed2cfd26382200f4ac7bc389a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8695316
+project-id = 1048409

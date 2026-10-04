@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "overrides": {
+        "sodium": {
+            "-breaks": {
+                "betterend": "IGNORED"
+            }
+        },
+        "spell_engine": {
+            "+breaks": {
+                "essentials_container": "*"
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+  "effects": {
+    "lne_archers:rangers_focus": {
+      "attributes": [
+        {
+          "attribute": "ranged_weapon:damage",
+          "value": 0.2,
+          "operation": "ADD_MULTIPLIED_BASE"
+        },
+        {
+          "attribute": "ranged_weapon:haste",
+          "value": 0.05,
+          "operation": "ADD_MULTIPLIED_BASE"
+        },
+        {
+          "attribute": "ranged_weapon:velocity",
+          "value": 0.2,
+          "operation": "ADD_MULTIPLIED_BASE"
+        }
+      ]
+    },
+    "lne_archers:winters_grip": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": -0.15,
+          "operation": "ADD_MULTIPLIED_BASE"
+        }
+      ]
+    },
+    "lne_archers:frozen_slave": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 0.2,
+          "operation": "ADD_MULTIPLIED_BASE"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.2,
+          "operation": "ADD_MULTIPLIED_BASE"
+        }
+      ]
+    }
+  }
+}

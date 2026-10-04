@@ -1,0 +1,152 @@
+{
+  "xOffset": -60,
+  "yOffset": 10,
+  "panelOffsetX": -145,
+  "panelOffsetY": 0,
+  "guiStyle": "COMPACT",
+  "hoverIconAnimation": false,
+  "percentAttributes": [
+    "kevslibrary:armor_penetration"
+  ],
+  "percentAttributesBase100": [
+    "spell_power:critical_damage",
+    "spell_power:critical_chance",
+    "spell_power:haste",
+    "ranged_weapon:haste",
+    "spell_engine:evasion_chance",
+    "spell_engine:damage_taken",
+    "spell_engine:healing_taken",
+    "critical_strike:chance",
+    "critical_strike:damage"
+  ],
+  "percentKeywords": [
+    "chance",
+    "movement_speed"
+  ],
+  "percentBase100Keywords": [],
+  "forceTrackVisibleAttributes": true,
+  "compact": {
+    "headers": [
+      {
+        "header": "Defense",
+        "attributes": [
+          {
+            "id": "minecraft:generic.max_health"
+          },
+          {
+            "id": "minecraft:generic.armor"
+          },
+          {
+            "id": "minecraft:generic.armor_toughness"
+          },
+          {
+            "id": "minecraft:generic.knockback_resistance"
+          },
+          {
+            "id": "spell_engine:evasion_chance"
+          }
+        ],
+        "blacklist": []
+      },
+      {
+        "header": "Physical",
+        "attributes": [
+          {
+            "id": "minecraft:generic.attack_damage"
+          },
+          {
+            "id": "minecraft:generic.attack_speed"
+          },
+          {
+            "id": "ranged_weapon:damage"
+          },
+          {
+            "id": "ranged_weapon:haste"
+          },
+          {
+            "id": "ranged_weapon:arrow_velocity"
+          },
+          {
+            "id": "critical_strike:chance"
+          },
+          {
+            "id": "critical_strike:damage"
+          }
+        ],
+        "blacklist": []
+      },
+      {
+        "header": "Magic",
+        "attributes": [
+          {
+            "id": "spell_power:fire"
+          },
+          {
+            "id": "spell_power:frost"
+          },
+          {
+            "id": "spell_power:arcane"
+          },
+          {
+            "id": "spell_power:lightning"
+          },
+          {
+            "id": "spell_power:soul"
+          },
+          {
+            "id": "spell_power:healing"
+          },
+          {
+            "id": "spell_power:critical_damage"
+          },
+          {
+            "id": "spell_power:critical_chance"
+          },
+          {
+            "id": "spell_power:haste"
+          }
+        ],
+        "blacklist": []
+      },
+      {
+        "header": "Movement",
+        "attributes": [
+          {
+            "id": "minecraft:generic.movement_speed"
+          },
+          {
+            "id": "combat_roll:count"
+          },
+          {
+            "id": "combat_roll:recharge"
+          },
+          {
+            "id": "combat_roll:distance"
+          }
+        ],
+        "blacklist": []
+      },
+      {
+        "header": "Other",
+        "attributes": [
+          {
+            "id": "spell_engine:healing_taken"
+          },
+          {
+            "id": "spell_engine:damage_taken"
+          },
+          {
+            "id": "minecraft:generic.luck"
+          }
+        ],
+        "blacklist": []
+      }
+    ],
+    "otherHeaderName": "Misc",
+    "globalBlacklist": [],
+    "disableOtherHeader": true,
+    "sidePadding": 8,
+    "textScale": 0.8,
+    "textTheme": "DARK"
+  }
+}

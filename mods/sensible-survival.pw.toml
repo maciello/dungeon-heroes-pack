@@ -1,0 +1,13 @@
+name = "Sensible Survival (RPG Tweaks)"
+filename = "sensible_survival-fabric-1.1.1+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HWQeS7qe/versions/rLpfc5hM/sensible_survival-fabric-1.1.1%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "d4ef9ae67d4b574a521c9b75fa3e833ba2328df7989f70974862b854bbfd86d59e6772585d052cac3b9d2384ac76560b0f08800fdbd327c6a5f5ce4c7d23f902"
+
+[update]
+[update.modrinth]
+mod-id = "HWQeS7qe"
+version = "rLpfc5hM"

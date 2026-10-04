@@ -1,0 +1,13 @@
+name = "Rotten Creatures"
+filename = "rottencreatures-fabric-1.21.1-1.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/5Zusp48B/versions/PlS61WUI/rottencreatures-fabric-1.21.1-1.1.2.jar"
+hash-format = "sha512"
+hash = "5be28626d53c9e2ebcc05657d333449af3eec58a2ba269836177d2d733cc2e11bcfc2a119f87fdd2c131ce5ba970393e465874fba4ab7080dd6100bc9cfef84f"
+
+[update]
+[update.modrinth]
+mod-id = "5Zusp48B"
+version = "PlS61WUI"

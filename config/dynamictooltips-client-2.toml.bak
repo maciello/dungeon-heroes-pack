@@ -1,0 +1,17 @@
+["Client Settings"]
+	#Append Block Interaction Range attribute line to relevant tooltips (e.g., tools)
+	appendBlockInteractionRangeTooltip = false
+	#Show the 'Hold [Shift] to expand...' hint when tooltips have hidden details (merged attributes or collapsed enchantments).
+	showUsabilityHint = false
+	#Collapse enchantment descriptions on gear by default, requiring Shift to be held to view them. Enchanted Books always show descriptions.
+	collapseEnchantmentTooltipsOnGear = true
+
+["Color Settings"]
+	#Enable coloring for enchantment names in tooltips.
+	colorEnchantmentNames = false
+	#Hex color code (#RRGGBB) for regular enchantment names (if colorEnchantmentNames is true). Curses are always red.
+	enchantmentNameColor = "#AAAAAA"
+	#Hex color code (#RRGGBB) for enchantment description text.
+	enchantmentDescriptionColor = "#808080"
+	#Hex color code (#RRGGBB) for enchantments above their max level (excluding curses) if colorEnchantmentNames is true.
+	superLeveledEnchantmentColor = "#FF55FF"

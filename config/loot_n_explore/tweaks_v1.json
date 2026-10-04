@@ -1,0 +1,11 @@
+{
+  "boss_relic_dropchance": 1.0,
+  "chest_relic_dropchance": 0.4,
+  "archaeology_relic_dropchance": 0.7,
+  "block_relic_dropchance": 0.025,
+  "entity_relic_dropchance": 0.025,
+  "trial_spawner_relic_dropchance": 0.35,
+  "trial_spawner_ominous_relic_dropchance": 0.5,
+  "vault_relic_dropchance": 0.75,
+  "vault_ominous_relic_dropchance": 1.0
+}

@@ -1,0 +1,13 @@
+name = "Hellish Trials"
+filename = "HellishTrials-fabric-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Wws4qHxK/versions/wHRIHKx3/HellishTrials-fabric-1.0.5.jar"
+hash-format = "sha512"
+hash = "d4bc108ca8a119cf786c69ca4a2bcc6636aec842f443aacae09a08d5f4a7d22672aaf039965d9b7b3980627c1a2e65f99c7cc58722c2ac83c3489b12daf96833"
+
+[update]
+[update.modrinth]
+mod-id = "Wws4qHxK"
+version = "wHRIHKx3"

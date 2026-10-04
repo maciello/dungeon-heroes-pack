@@ -1,0 +1,520 @@
+{
+  "config_version": "2.0.35",
+  "config_datetime": "2026-09-13_16-56-31",
+  "general": {
+    "enable_global_spacing_and_separation_modifier": true
+  },
+  "structure_namespaces": [],
+  "structures": [
+    {
+      "name": "adventuredungeons:ruins_desert",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "adventuredungeons:ruins_snow",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "adventuredungeons:ruins_standard",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "adventuredungeons:underground_camp",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "ctov:large/village_savanna",
+      "is_disabled": true,
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "ctov:large/village_savanna_na",
+      "is_disabled": true,
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "ctov:medium/village_savanna",
+      "is_disabled": true,
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "ctov:medium/village_savanna_na",
+      "is_disabled": true,
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "ctov:small/village_savanna",
+      "is_disabled": true,
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "ctov:small/village_savanna_na",
+      "is_disabled": true,
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "dungeons_arise:bathhouse",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "dungeons_arise:greenwood_pub",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "dungeons_arise:heavenly_challenger",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "dungeons_arise:heavenly_conqueror",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "dungeons_arise:heavenly_rider",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "dungeons_arise:lighthouse",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "dungeons_arise:mechanical_nest",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "dungeons_arise:merchant_campsite",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "dungeons_arise:monastery",
+      "is_disabled": true,
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "dungeons_arise:small_blimp",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "dungeons_arise:wishing_well",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "explorify:tavern",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "mebahelcreaturesdraugr:draugr_bastion",
+      "is_disabled": true
+    },
+    {
+      "name": "mebahelcreaturesdraugr:draugr_fort",
+      "is_disabled": true
+    },
+    {
+      "name": "mebahelcreaturesdraugr:draugr_tower",
+      "is_disabled": true
+    },
+    {
+      "name": "mes:enderkeep_courtyard",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "mes:enderskog",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "mes:endscraps",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "mes:manuscript_shrine",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "mes:monolith",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "mes:mystical_archway",
+      "is_disabled": true
+    },
+    {
+      "name": "mes:mythic_garden",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "minecells:overworld_portal",
+      "blacklisted_biomes": [
+        "minecraft:birch_forest",
+        "terralith:blooming_valley",
+        "terralith:temperate_highlands",
+        "minecraft:taiga",
+        "terralith:shield",
+        "terralith:snowy_shield",
+        "minecraft:plains",
+        "minecraft:sunflower_plains",
+        "terralith:arid_highlands",
+        "terralith:brushland",
+        "terralith:highlands",
+        "terralith:steppe"
+      ],
+      "biome_check_blacklisted_biomes": [
+        "#c:is_plains",
+        "#c:is_savanna",
+        "terralith:highlands",
+        "#c:is_desert",
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "nova_structures:bunker",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "nova_structures:illager_camp",
+      "blacklisted_biomes": [
+        "minecraft:river"
+      ]
+    },
+    {
+      "name": "nova_structures:lone_citadel",
+      "whitelisted_biomes": [
+        "#c:is_taiga"
+      ],
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "nova_structures:toxic_lair",
+      "whitelisted_biomes": [
+        "minecraft:dark_forest",
+        "#c:is_swamp"
+      ],
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "nova_structures:underground_house",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "nova_structures:village_birch",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "nova_structures:village_jungle",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "nova_structures:village_swamp",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "nova_structures:well_birch",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "nova_structures:well_dark_oak",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "nova_structures:well_jungle",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "nova_structures:well_oak",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "nova_structures:well_savana",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "nova_structures:well_spruce",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "rpgstructures:mage_guild",
+      "whitelisted_biomes": [
+        "terralith:forested_highlands",
+        "terralith:moonlight_grove",
+        "terralith:moonlight_valley"
+      ],
+      "enable_flatness_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "structory_towers:lighthouse",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "terralith:fortified_desert_village",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    },
+    {
+      "name": "terralith:fortified_village",
+      "is_disabled": true,
+      "biome_check_mode": "STRICT",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ]
+    }
+  ],
+  "structure_sets": [
+    {
+      "name": "minecells:overworld_portal",
+      "frequency": 0.5
+    },
+    {
+      "name": "minecraft:villages",
+      "spacing": 60,
+      "separation": 40
+    }
+  ],
+  "structure_template_pools": []
+}

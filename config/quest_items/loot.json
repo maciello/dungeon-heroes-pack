@@ -1,0 +1,310 @@
+{
+  "entries": {
+    "betterdeserttemples:chests/pharaoh_hidden": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:pharaohs_mask",
+          "weight": 1
+        }
+      ]
+    },
+    "terralith:desert_outpost": {
+      "rolls": 0.5,
+      "items": [
+        {
+          "itemId": "quest_items:desert_rose",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/desert_ruins/desert_ruin_grave": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:ancient_king_scepter",
+          "weight": 1
+        }
+      ]
+    },
+    "dungeons_arise:chests/jungle_tree_house/jungle_tree_house_treasure": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:tribal_totem",
+          "weight": 1
+        }
+      ]
+    },
+    "betterjungletemples:chests/treasure": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:stone_idol",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/jungle_ruins/jungle_ruins_main_temple": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:mossy_tablet",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/creeping_crypt/vault_creeping": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:undead_essence",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/undead_crypts_grave": {
+      "rolls": 0.2,
+      "items": [
+        {
+          "itemId": "quest_items:rotten_heart",
+          "weight": 1
+        }
+      ]
+    },
+    "dungeons_arise:chests/abandoned_temple/abandoned_temple_map": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:skeletal_hand",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/lone_citadel/c_vault_boss": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:frozen_grail",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/stray_fort_archer": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:frozen_skull",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/badland_miner_outpost": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:shackles",
+          "weight": 1
+        }
+      ]
+    },
+    "minecraft:chests/illager_mansion/generic": {
+      "rolls": 0.5,
+      "items": [
+        {
+          "itemId": "quest_items:corruption_orb",
+          "weight": 1
+        }
+      ]
+    },
+    "takesapillage:chests/bastille/church": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:evil_codex",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/toxic_lair/toxic_boss_vault": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:toxic_vial",
+          "weight": 1
+        }
+      ]
+    },
+    "dungeons_arise:chests/thornborn_towers/thornborn_towers_top_treasure": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:sack_of_magic_dust",
+          "weight": 1
+        }
+      ]
+    },
+    "minecraft:entities/wither": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:wither_ribcage",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/nether_port/nether_port_chest": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:molten_tablet",
+          "weight": 1
+        }
+      ]
+    },
+    "minecraft:chests/bastion_treasure": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:corrupted_grail",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/piglin_donjon/vault_piglin_donjon": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:cursed_crown",
+          "weight": 1
+        }
+      ]
+    },
+    "friendsandfoes:entities/wildfire": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:wildfire_essence",
+          "weight": 1
+        }
+      ]
+    },
+    "dungeons_arise_seven_seas:chests/corsair_corvette/corsair_corvette_treasure": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:black_pearl",
+          "weight": 1
+        }
+      ]
+    },
+    "dungeons_arise_seven_seas:chests/unicorn_galleon/unicorn_galleon_treasure": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:black_pearl",
+          "weight": 1
+        }
+      ]
+    },
+    "dungeons_arise_seven_seas:chests/victory_frigate/victory_frigate_treasure": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:black_pearl",
+          "weight": 1
+        }
+      ]
+    },
+    "betteroceanmonuments:chests/upper_side_chamber": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:magnificent_clam_shell",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/trident_trial_monument/ttm_boss_vault_trident": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:deep_see_crystal",
+          "weight": 1
+        }
+      ]
+    },
+    "aether:chests/dungeon/bronze/bronze_dungeon_reward": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:aether_essence",
+          "weight": 1
+        }
+      ]
+    },
+    "aether:chests/dungeon/silver/silver_dungeon_reward": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:silver_feather",
+          "weight": 1
+        }
+      ]
+    },
+    "aether:chests/dungeon/gold/gold_dungeon_reward": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:golden_lantern",
+          "weight": 1
+        }
+      ]
+    },
+    "dungeons_arise:chests/keep_kayra/keep_kayra_garden_treasure": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:unholy_candle",
+          "weight": 1
+        }
+      ]
+    },
+    "dungeons_arise:chests/shiraz_palace/shiraz_palace_elite": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:red_urn",
+          "weight": 1
+        }
+      ]
+    },
+    "minecraft:entities/warden": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:warden_ears",
+          "weight": 1
+        }
+      ]
+    },
+    "minecells:entities/conjunctivius": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:wicked_tentacle",
+          "weight": 1
+        }
+      ]
+    },
+    "minecells:entities/concierge": {
+      "rolls": 1.0,
+      "items": [
+        {
+          "itemId": "quest_items:steel_heart",
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

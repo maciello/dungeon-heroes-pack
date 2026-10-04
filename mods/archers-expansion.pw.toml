@@ -1,0 +1,13 @@
+name = "Archers Expansion (RPG Series Plus)"
+filename = "archers_expansion-fabric-2.1.1+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1BHIIm4m/versions/f6x1louV/archers_expansion-fabric-2.1.1%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "46bab9dd07aa43727614e3a8417cbcb93f8794448e78fb6acfec042c546ccbc6c2c897695e9c131cc60216dd8296cce9a6a8a82c63e978a1c184872d2bc38c00"
+
+[update]
+[update.modrinth]
+mod-id = "1BHIIm4m"
+version = "f6x1louV"

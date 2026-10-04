@@ -1,0 +1,13 @@
+name = "Berserker (RPG Series Plus)"
+filename = "berserker_rpg-fabric-3.1.1+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8hqOZzxM/versions/Ok1BxW3i/berserker_rpg-fabric-3.1.1%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "5a8acac59129ee2579d78e6af7b55fc4e071bbda79c52f308f4a3cd9bdb239156d67d679301e156880e725491b762fe25a07d14ee58220cc0a2755b31c7985fc"
+
+[update]
+[update.modrinth]
+mod-id = "8hqOZzxM"
+version = "Ok1BxW3i"

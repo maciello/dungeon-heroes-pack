@@ -1,0 +1,13 @@
+name = "Mebahel's API"
+filename = "mebahels-api-1.0.21-fabric-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7PmL8Hql/versions/3CqHolpV/mebahels-api-1.0.21-fabric-1.21.1.jar"
+hash-format = "sha512"
+hash = "cb249c1c429f473e2892708ceddd7e4e7861f5bbebff78740e6668a30a41abbffecaf6cab8b7e2b19d2b17ce05da93b5ecc0546950cb4459271e83e4dec19cb9"
+
+[update]
+[update.modrinth]
+mod-id = "7PmL8Hql"
+version = "3CqHolpV"

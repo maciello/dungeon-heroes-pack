@@ -1,0 +1,12 @@
+{
+  "maxStackSize": 2147483647,
+  "enableInfinite": false,
+  "enableAutoPick": false,
+  "enableAttaching": true,
+  "transferMode": "ALL",
+  "defaultAccessibility": "PUBLIC",
+  "creationMode": "CREATE_PER_PLAYER",
+  "convertEmptyTag": true,
+  "specifiedMenuAttachability": [],
+  "inventoryAttachable": true
+}

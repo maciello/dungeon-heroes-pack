@@ -1,0 +1,13 @@
+name = "Entity Player Compat"
+filename = "EPC-2.2.1-1.21.1-fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/G65BPCre/versions/qlnWnBMG/EPC-2.2.1-1.21.1-fabric.jar"
+hash-format = "sha512"
+hash = "014ff97e3287fc7ddd279aca648ff7944b287909bb3e5605b29bca8739a46c76967a328e27c5622f844983e027ea49d114b7335c844685deec733c2b6e945ab5"
+
+[update]
+[update.modrinth]
+mod-id = "G65BPCre"
+version = "qlnWnBMG"

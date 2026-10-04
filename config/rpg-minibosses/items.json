@@ -1,0 +1,125 @@
+{
+  "weapons": {
+    "whispering_ice": {
+      "attack_damage": 4.0,
+      "attack_speed": -3.0,
+      "attributes": [
+        {
+          "attribute": "spell_power:frost",
+          "value": 7.0,
+          "operation": "ADD_VALUE"
+        }
+      ]
+    }
+  },
+  "armor_sets": {
+    "trickster": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 2,
+        "attributes": [
+          {
+            "attribute": "extraspellattributes:spellsuppression",
+            "value": 0.15,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "attribute": "extraspellattributes:glancingblow",
+            "value": 0.15,
+            "operation": "ADD_MULTIPLIED_BASE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 6,
+        "attributes": [
+          {
+            "attribute": "extraspellattributes:spellsuppression",
+            "value": 0.15,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "attribute": "extraspellattributes:glancingblow",
+            "value": 0.15,
+            "operation": "ADD_MULTIPLIED_BASE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 4,
+        "attributes": [
+          {
+            "attribute": "extraspellattributes:spellsuppression",
+            "value": 0.15,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "attribute": "extraspellattributes:glancingblow",
+            "value": 0.15,
+            "operation": "ADD_MULTIPLIED_BASE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 2,
+        "attributes": [
+          {
+            "attribute": "extraspellattributes:spellsuppression",
+            "value": 0.15,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "attribute": "extraspellattributes:glancingblow",
+            "value": 0.15,
+            "operation": "ADD_MULTIPLIED_BASE"
+          }
+        ]
+      }
+    },
+    "juggernaut": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 3,
+        "attributes": [
+          {
+            "attribute": "extraspellattributes:defiance",
+            "value": 1.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 8,
+        "attributes": [
+          {
+            "attribute": "extraspellattributes:defiance",
+            "value": 1.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 6,
+        "attributes": [
+          {
+            "attribute": "extraspellattributes:defiance",
+            "value": 1.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 3,
+        "attributes": [
+          {
+            "attribute": "extraspellattributes:defiance",
+            "value": 1.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      }
+    }
+  }
+}

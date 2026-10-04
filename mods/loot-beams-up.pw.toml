@@ -1,0 +1,13 @@
+name = "Loot Beams Up"
+filename = "lootbeams-3.6.1-mc1.21-.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/fFPOjWlN/versions/snceiTqn/lootbeams-3.6.1-mc1.21-.1.jar"
+hash-format = "sha512"
+hash = "7e947ca9a38dae3e8cd0ee76f81cd676c725025b52b78d3aa28ba0bcc7d4e4e249be212f8f7b8adc90cd7ef3e62fe455977706c0f21a9cfd10e2c7496db22e9b"
+
+[update]
+[update.modrinth]
+mod-id = "fFPOjWlN"
+version = "snceiTqn"

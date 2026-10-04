@@ -1,0 +1,13 @@
+name = "Mages Guild  (RPG Structures)"
+filename = "RPGStructures_MageGuild_1.0.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8ab7ab0c1a5fc62a4e240d8aaf87c1934aa328b7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8553176
+project-id = 1453369

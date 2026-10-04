@@ -1,0 +1,13 @@
+name = "Team Capes"
+filename = "team_capes-fabric-1.1.1+1.21.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Sw4LxdbE/versions/7aDCzyJK/team_capes-fabric-1.1.1%2B1.21.jar"
+hash-format = "sha512"
+hash = "70196e749d302971ba5ad8cc676e07e6bbd4fff6cdd4570415b3f2c4c8ed4f88ccb9fbd9a063a2cb3a2aa8a9c7754102a2dbaf8c189a9ac1ba78c5defb3d6abc"
+
+[update]
+[update.modrinth]
+mod-id = "Sw4LxdbE"
+version = "7aDCzyJK"

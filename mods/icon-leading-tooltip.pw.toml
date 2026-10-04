@@ -1,0 +1,13 @@
+name = "Icon Leading Tooltip"
+filename = "icon-leading-tooltip-fabric-1.0.8.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Fkf6XJDM/versions/QndEWwUW/icon-leading-tooltip-fabric-1.0.8.jar"
+hash-format = "sha512"
+hash = "8a5cef42b2011b0f271c10eeacc12cf2dc003d9459e0c047d8dcb5a7de1fe505f07482d4f22480eacf12623a60d4e223ebe92a66cf02f60f618354c6414f67d5"
+
+[update]
+[update.modrinth]
+mod-id = "Fkf6XJDM"
+version = "QndEWwUW"

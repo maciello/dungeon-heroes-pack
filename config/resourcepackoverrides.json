@@ -1,0 +1,71 @@
+{
+  "schema_version": "2",
+  "default_packs": [
+  ],
+  "pack_overrides": {
+    "vanilla": {
+      "title": "\"Vanilla Assets\"",
+      "description": "\"Resource pack from Minecraft\"",
+      "fixed_position": true
+    },
+
+  "1": [
+    "continuity:glass_pane_culling_fix",
+    "moonlight:merged_pack",
+    "file/SodiumTranslations.zip",
+    "file/Square_bars_for_shaders.zip",
+    "file/Chat Reporting Helper.zip",
+    "file/Mod Menu Helper.zip",
+    "file/Fast Better Grass.zip",
+    "file/DungeonHeroes_MiscAssets.zip",
+    "file/DungeonHeroes_QuestAssets_1.2.zip",
+    "file/DungeonHeroes_TrinketSlots.zip",
+    "file/DungeonHeroes_BrewingFixTemp.zip",
+    "file/Villager Taverns (Brewin  Chewin Compat) 1.0.0.zip"
+  ],
+  "2": [
+    "programmer_art",
+    "high_contrast",
+    "minecells:ribcages",
+    "generated/fragmentum_layer",
+    "provihealth:square_bars",
+    "kevs_attributes_panel:kevs_attributes_panel_old",
+    "builtin/aether_125_art",
+    "builtin/aether_b173_art",
+    "builtin/aether_colorblind",
+    "builtin/aether_tooltips",
+    "provihealth:rounded_bars",
+    "file/WhenDungeonsArise-LootTweaks-1.21.1-2.1.64.zip",
+    "file/WhenDungeonsArise-NoCoolEnchantments-2.1.64-1.21.1-1.0.3.zip",
+    "fabric" 
+  ],
+  "3": [
+    "file/DungeonHeroes_VibrantLegendary.zip",
+    "obscure_tooltips/packs/vibrant_tooltips",
+    "file/\u00A76Sky's \u00A7f3D Barrel \u00A78v1.1.zip",
+    "file/\u00A7l3D\u00A7f+Ladders+v1.2(mc-1.21).zip",
+    "file/AL's Boss Rush 1.1.zip",
+    "kevs_attributes_panel:kap_minimal_dark",
+    "file/RPG_Series_Icons-1.4.0+1.21.1.zip",
+    "file/Explorers_BagOfHolding_1.0.3.zip",
+    "file/FA+All_Extensions-v1.8.1.zip",
+    "file/FA+Player-v1.1.zip",
+    "file/FreshAnimations_v1.10.4.zip",
+    "file/FA+Details-v2.2.1.zip"
+  ],
+
+  "$$1": {
+    "hidden": true,
+    "required": true,
+    "default_position": "TOP"
+  },
+  "$$2": {
+    "hidden": true,
+    "default_position": "BOTTOM"
+  },
+    "$$3": {
+    "required": true,
+    "default_position": "TOP"
+  }
+  }
+}

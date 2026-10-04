@@ -1,0 +1,14 @@
+{
+  "chosenPreset": 0,
+  "apiPreset": 0,
+  "loadedPresets": [
+    {
+      "skin": {
+        "skin_name": "1240481042",
+        "model": "classic",
+        "type": "skinshuffle:config"
+      },
+      "name": "Daedelus"
+    }
+  ]
+}

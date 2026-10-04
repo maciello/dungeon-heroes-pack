@@ -1,0 +1,13 @@
+name = "Bard (RPG Series Plus)"
+filename = "bards_rpg-fabric-1.1.1-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kL7Bjgmw/versions/oTrRQsrF/bards_rpg-fabric-1.1.1-1.21.1.jar"
+hash-format = "sha512"
+hash = "b42a3232b463e8c0b9da7da40b7424f4b3c55c08c88d231931db3fc261e559dad9fe67b3446b9a98cc50a40d979a41c613f996b3102e149d88c361a4170fbdef"
+
+[update]
+[update.modrinth]
+mod-id = "kL7Bjgmw"
+version = "oTrRQsrF"

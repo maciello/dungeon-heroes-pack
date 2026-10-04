@@ -1,0 +1,74 @@
+{
+  "specifiedMenuAttachability": {
+    "container2attachable": []
+  },
+  "AttachedMenuOptions": {
+    "PageBasicLayout": {
+      "rows": 16,
+      "columns": 3,
+      "auto_columns": true
+    },
+    "PageSwitchBar": {},
+    "BasicLayout": "LEFT",
+    "TopPos": 20,
+    "HidePages": [],
+    "TextureMode": "FROM_RESOURCE",
+    "PageRectangleParam": [
+      0,
+      0,
+      178,
+      299
+    ]
+  },
+  "EIMOptions": {
+    "PageSwitchBar": {
+      "maxBars": 255,
+      "tabParam": [
+        -32,
+        0,
+        32,
+        28
+      ],
+      "buttonDec": [
+        -20,
+        -20,
+        20,
+        14
+      ],
+      "buttonInc": [
+        -20,
+        -20,
+        20,
+        14
+      ]
+    },
+    "rows": 9,
+    "HidePages": [],
+    "SearchBoxParam": [
+      89,
+      5,
+      80,
+      12
+    ],
+    "SortBoxParam": [
+      8,
+      5,
+      60,
+      12
+    ],
+    "ConfigButtonParam": [
+      0,
+      -20,
+      18,
+      18
+    ],
+    "ReverseSortButtonParam": [
+      70,
+      5,
+      12,
+      12
+    ]
+  },
+  "DoAttach": true,
+  "ScreenDebug": false
+}

@@ -1,0 +1,13 @@
+name = "Witcher (RPG Series Plus)"
+filename = "witcher-class-mod-fabric-3.1.4+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4eW1c7Gj/versions/NnmMoYJb/witcher-class-mod-fabric-3.1.4%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "312e2d99dc2e1954d79ad87bba09f9d3cb891ac59f13c1b4c8befeada3c98ffd08568abe93571a58834d110b5e8cca7bf57ac6d35b1e24011bccebe9c153d86b"
+
+[update]
+[update.modrinth]
+mod-id = "4eW1c7Gj"
+version = "NnmMoYJb"

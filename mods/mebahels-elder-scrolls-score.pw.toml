@@ -1,0 +1,13 @@
+name = "Mebahel's Elder Scrolls Core"
+filename = "mebahel-elder-scrolls-core-1.1.3-fix-fabric-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "26c79a655e0790c8128345019701a9603a7fea0d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8833246
+project-id = 1665596
