@@ -11,15 +11,17 @@ The server installs and updates the pack itself on every start, from this repo. 
 
 ## How it works
 
-On every start, the server runs [packwiz-installer-bootstrap](https://github.com/packwiz/packwiz-installer-bootstrap) before Minecraft:
+The server starts with [start.sh](start.sh) and a pack link:
 
 ```
-java -jar packwiz-installer-bootstrap.jar -g -s server <PACK_URL>
+bash start.sh <PACK_URL>
 ```
 
-- `-g` = no window (servers have no screen).
-- `-s server` = server mods only. Client-only mods (minimaps, shaders, …) are skipped.
-- It downloads only files that changed, and it removes mods that the pack removed.
+1. It runs [packwiz-installer-bootstrap](https://github.com/packwiz/packwiz-installer-bootstrap) with `-g -s server <PACK_URL>`:
+   - `-g` = no window (servers have no screen).
+   - `-s server` = server mods only. Client-only mods (minimaps, shaders, …) are skipped.
+   - It downloads only files that changed, and it removes mods that the pack removed.
+2. Then it starts Minecraft.
 
 `PACK_URL` for players' version:
 ```
@@ -29,31 +31,38 @@ A test server can use branch `dev` instead of `main`, or a tag like `v1.0.0` to 
 
 ## Pterodactyl
 
-1. Create the server with a **Fabric** egg: Minecraft **1.21.1**, loader **0.19.5**, Java 21 image.
-2. **Files:** download [packwiz-installer-bootstrap.jar](https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar) and upload it to the server root (next to the server jar).
-3. **Startup → Variables:** add `PACK_URL` with the link above. (If your egg does not allow new variables, put the link straight into the command.)
-4. **Startup → Command:**
+1. Create the server with the **Fabric** egg:
+   - Docker image: **java 21**
+   - `MC_VERSION` = `1.21.1`
+   - `LOADER_VERSION` = `0.19.5`
+2. **Files:** upload these 2 files to the server root (next to `server.jar`):
+   - [packwiz-installer-bootstrap.jar](https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar)
+   - [start.sh](https://raw.githubusercontent.com/maciello/dungeon-heroes-pack/main/docs/start.sh)
+3. **Admin → Servers → your server → Startup → Startup Command:**
    ```
-   java -jar packwiz-installer-bootstrap.jar -g -s server {{PACK_URL}} && java -Xms128M -Xmx{{SERVER_MEMORY}}M -jar {{SERVER_JARFILE}} nogui
+   bash start.sh https://raw.githubusercontent.com/maciello/dungeon-heroes-pack/main/pack.toml
    ```
-5. **Backups:** set the backup limit to 1 or more.
-6. **Start.** The first start downloads about 1 GB. The console must show:
+   Do not use `&&` in the startup command. The panel runs it without a shell, so Minecraft starts before the pack update.
+4. **Backups:** set the backup limit to 1 or more.
+5. **Start.** The first start downloads about 1 GB. The console must show:
+   - `Finished successfully!` (pack update, before Minecraft)
    - ``Data pack `dungeon_heroes` loaded successfully!``
    - `Done (…)! For help, type "help"`
 
 ## Plain Linux (no panel)
 
-1. Download the Fabric server launcher for Minecraft 1.21.1, loader 0.19.5:
+1. In an empty folder, download the Fabric server launcher, the bootstrap and the start script:
    ```
    curl -o fabric-server.jar https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.19.5/1.1.2/server/jar
+   curl -LO https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
+   curl -O https://raw.githubusercontent.com/maciello/dungeon-heroes-pack/main/docs/start.sh
    ```
-2. Put `packwiz-installer-bootstrap.jar` next to it.
-3. Write `eula=true` into `eula.txt` (this accepts Mojang's EULA).
-4. Start script (`start.sh`):
+2. Write `eula=true` into `eula.txt` (this accepts Mojang's EULA).
+3. Start:
    ```
-   java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githubusercontent.com/maciello/dungeon-heroes-pack/main/pack.toml \
-     && java -Xmx8G -jar fabric-server.jar nogui
+   bash start.sh https://raw.githubusercontent.com/maciello/dungeon-heroes-pack/main/pack.toml
    ```
+   Memory: `SERVER_MEMORY` in MiB (default 8192).
 
 ## Updates
 
@@ -72,7 +81,7 @@ Versions follow MAJOR.MINOR.PATCH:
 ## Roll back
 
 - **World:** restore the backup from before the update.
-- **Mods:** set `PACK_URL` to the old tag, for example `https://raw.githubusercontent.com/maciello/dungeon-heroes-pack/v1.0.0/pack.toml`, and restart. Players must use the same version, so tell the host to roll back the pack too.
+- **Mods:** in the startup command, replace `main` with the old tag, for example `https://raw.githubusercontent.com/maciello/dungeon-heroes-pack/v1.0.0/pack.toml`, and restart. Players must use the same version, so tell the host to roll back the pack too.
 
 ## Never put in this repo
 
@@ -82,6 +91,7 @@ Versions follow MAJOR.MINOR.PATCH:
 
 | console shows | fix |
 |---|---|
-| `Update process failed` before Minecraft starts | Check `PACK_URL` (open it in a browser: it must show text starting with `name = "Dungeon Heroes"`). |
+| `Update process failed` before Minecraft starts | Check the pack link (open it in a browser: it must show text starting with `name = "Dungeon Heroes"`). |
+| Minecraft starts first, the pack never updates | The startup command has `&&` in it. Use `bash start.sh <PACK_URL>`. |
 | `NoClassDefFoundError: net/minecraft/class_…` | A client-only mod got onto the server. Report it to the pack host with the mod name from the log. |
 | Server starts but players get "mod mismatch" | Server and players run different pack versions. Restart the server, players relaunch. |

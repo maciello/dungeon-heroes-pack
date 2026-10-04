@@ -45,11 +45,11 @@ Minecraft 1.21.1 needs Java 21. The launcher does not install it for you.
    ```
    https://github.com/maciello/dungeon-heroes-pack/releases/download/instance/DungeonHeroes-main.zip
    ```
-4. A new instance **Dungeon Heroes** appears.
+4. A new instance **DungeonHeroes-main** appears. It has no mods yet. They download at the first launch (Step 5).
 
 ## Step 5: First start
 
-1. Select **Dungeon Heroes** and click **Launch**.
+1. Select **DungeonHeroes-main** and click **Launch**.
 2. A window **packwiz-installer** opens and downloads about 1100 files. The first time takes a few minutes. Wait.
 3. If a window **Updating MultiMC versions** opens, click **Update**. If the game does not start after that, click **Launch** again.
 4. The game opens. The first start is slow (it loads about 340 mods).
