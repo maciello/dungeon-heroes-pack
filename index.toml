@@ -3673,7 +3673,7 @@ metafile = true
 
 [[files]]
 file = "mods/dh_addon.jar"
-hash = "4323742fba1771dabc9a1ba26f6595a7a4a50d431f09fe751e56b99501cfa801"
+hash = "51ff62c0f1ee47a0425c93375b9131764a8edd542f72e48cdf60808cccd7ffa0"
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
