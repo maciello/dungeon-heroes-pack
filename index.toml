@@ -1638,7 +1638,7 @@ hash = "a92e49daf445e11991974375cb4e3a05d33efb38d9795180aea5d0f55ca5cc7d"
 
 [[files]]
 file = "config/easymagic-server.toml"
-hash = "b2860a71cdc35a6f3cee847622a7085c35d3691f26ca7b4c84098e14bc4369dc"
+hash = "20fe634825efe971557d1b39d9cccf04166e5be205a297d33c9106875c37082c"
 
 [[files]]
 file = "config/ecologics.json"
@@ -3382,7 +3382,7 @@ hash = "60a78fe1b271ce9b53e295235eb5a7cdb3a8692ca583fdaa7f5bc09f9049e2f4"
 
 [[files]]
 file = "global_packs/required_data/DungeonHeroes_Passives.zip"
-hash = "d8e953d0a0d54ceb0c3f0054bebf24c65f59aa5cf01325f5da683581ee8cfcef"
+hash = "938a328f90d509ff8078e357449a03c6a62c044480a232f0cb299f2413b309ca"
 
 [[files]]
 file = "mods/Endless Inventory-fabric-1.21.1-1.1.4-serverfix.jar"
