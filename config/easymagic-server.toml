@@ -34,7 +34,7 @@ chiseled_bookshelf_enchanting_power = "FACING"
 #Catalyst items for re-rolling are defined by the 'easymagic:reroll_catalysts' item tag instead of 'easymagic:enchanting_catalysts' (which includes just lapis lazuli by default).
 #Unlocks an additional slot for providing those items in the enchanting table interface.
 #Default Value: false
-dedicated_reroll_catalyst = false
+dedicated_reroll_catalyst = true
 #Amount of experience points (not enchantment levels) taken as a cost for re-rolling enchantments. Set to 0 to disable this kind of cost.
 #Requires the re-rolling option to be enabled.
 #Default Value: 5

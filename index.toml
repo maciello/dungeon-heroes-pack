@@ -1638,7 +1638,7 @@ hash = "a92e49daf445e11991974375cb4e3a05d33efb38d9795180aea5d0f55ca5cc7d"
 
 [[files]]
 file = "config/easymagic-server.toml"
-hash = "b2860a71cdc35a6f3cee847622a7085c35d3691f26ca7b4c84098e14bc4369dc"
+hash = "191938e2d971f5c9cc1198a01b6a13a4328da9f5e9289fa4a0f937f69718a8dd"
 
 [[files]]
 file = "config/ecologics.json"
