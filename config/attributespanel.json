@@ -5,44 +5,22 @@
   "panelOffsetY": 0,
   "guiStyle": "COMPACT",
   "hoverIconAnimation": false,
-  "percentAttributes": [],
+  "percentAttributes": [
+    "kevslibrary:armor_penetration"
+  ],
   "percentAttributesBase100": [
-    "critical_strike:chance",
-    "critical_strike:damage",
-    "more_rpg_classes:air_fuse_modifier",
-    "more_rpg_classes:arcane_fuse_modifier",
-    "more_rpg_classes:armor_piercing",
-    "more_rpg_classes:bleeding_chance",
-    "more_rpg_classes:burning_chance",
-    "more_rpg_classes:damage_reflect_modifier",
-    "more_rpg_classes:earth_fuse_modifier",
-    "more_rpg_classes:fire_fuse_modifier",
-    "more_rpg_classes:freeze_chance",
-    "more_rpg_classes:frost_fuse_modifier",
-    "more_rpg_classes:healing_fuse_modifier",
-    "more_rpg_classes:lifesteal_modifier",
-    "more_rpg_classes:poison_chance",
-    "more_rpg_classes:rage_modifier",
-    "more_rpg_classes:spell_vampire",
-    "more_rpg_classes:stagger_chance",
-    "more_rpg_classes:stun_chance",
-    "more_rpg_classes:water_fuse_modifier",
-    "ranged_weapon:haste",
-    "spell_engine:damage_taken",
-    "spell_engine:evasion_chance",
-    "spell_engine:healing_taken",
-    "spell_power:critical_chance",
     "spell_power:critical_damage",
+    "spell_power:critical_chance",
     "spell_power:haste",
-    "witcher_rpg:aard_intensity",
-    "witcher_rpg:adrenaline_modifier",
-    "witcher_rpg:axii_intensity",
-    "witcher_rpg:igni_intensity",
-    "witcher_rpg:quen_intensity",
-    "witcher_rpg:sign_intensity",
-    "witcher_rpg:yrden_intensity"
+    "ranged_weapon:haste",
+    "spell_engine:evasion_chance",
+    "spell_engine:damage_taken",
+    "spell_engine:healing_taken",
+    "critical_strike:chance",
+    "critical_strike:damage"
   ],
   "percentKeywords": [
+    "chance",
     "movement_speed"
   ],
   "percentBase100Keywords": [],
@@ -56,9 +34,6 @@
             "id": "minecraft:generic.max_health"
           },
           {
-            "id": "minecraft:generic.max_absorption"
-          },
-          {
             "id": "minecraft:generic.armor"
           },
           {
@@ -68,37 +43,7 @@
             "id": "minecraft:generic.knockback_resistance"
           },
           {
-            "id": "minecraft:generic.explosion_knockback_resistance"
-          },
-          {
-            "id": "minecraft:generic.burning_time"
-          },
-          {
-            "id": "spell_engine:damage_taken"
-          },
-          {
-            "id": "spell_power:resistance.generic"
-          },
-          {
-            "id": "more_rpg_classes:damage_reflect_modifier"
-          },
-          {
             "id": "spell_engine:evasion_chance"
-          }
-        ],
-        "blacklist": []
-      },
-      {
-        "header": "Sustain",
-        "attributes": [
-          {
-            "id": "more_rpg_classes:lifesteal_modifier"
-          },
-          {
-            "id": "more_rpg_classes:spell_vampire"
-          },
-          {
-            "id": "spell_engine:healing_taken"
           }
         ],
         "blacklist": []
@@ -113,79 +58,19 @@
             "id": "minecraft:generic.attack_speed"
           },
           {
-            "id": "minecraft:player.sweeping_damage_ratio"
-          },
-          {
-            "id": "more_rpg_classes:rage_modifier"
-          },
-          {
             "id": "ranged_weapon:damage"
           },
           {
             "id": "ranged_weapon:haste"
           },
           {
+            "id": "ranged_weapon:arrow_velocity"
+          },
+          {
             "id": "critical_strike:chance"
           },
           {
             "id": "critical_strike:damage"
-          },
-          {
-            "id": "more_rpg_classes:armor_piercing"
-          }
-        ],
-        "blacklist": []
-      },
-      {
-        "header": "Elemental Hits",
-        "attributes": [
-          {
-            "id": "more_rpg_classes:fire_fuse_modifier"
-          },
-          {
-            "id": "more_rpg_classes:frost_fuse_modifier"
-          },
-          {
-            "id": "more_rpg_classes:arcane_fuse_modifier"
-          },
-          {
-            "id": "more_rpg_classes:air_fuse_modifier"
-          },
-          {
-            "id": "more_rpg_classes:earth_fuse_modifier"
-          },
-          {
-            "id": "more_rpg_classes:water_fuse_modifier"
-          },
-          {
-            "id": "more_rpg_classes:healing_fuse_modifier"
-          }
-        ],
-        "blacklist": []
-      },
-      {
-        "header": "On-Hit Effects",
-        "attributes": [
-          {
-            "id": "minecraft:generic.attack_knockback"
-          },
-          {
-            "id": "more_rpg_classes:bleeding_chance"
-          },
-          {
-            "id": "more_rpg_classes:poison_chance"
-          },
-          {
-            "id": "more_rpg_classes:stun_chance"
-          },
-          {
-            "id": "more_rpg_classes:stagger_chance"
-          },
-          {
-            "id": "more_rpg_classes:burning_chance"
-          },
-          {
-            "id": "more_rpg_classes:freeze_chance"
           }
         ],
         "blacklist": []
@@ -194,43 +79,28 @@
         "header": "Magic",
         "attributes": [
           {
-            "id": "spell_power:arcane"
-          },
-          {
             "id": "spell_power:fire"
           },
           {
             "id": "spell_power:frost"
           },
           {
-            "id": "spell_power:healing"
-          },
-          {
-            "id": "spell_power:air"
-          },
-          {
-            "id": "spell_power:earth"
-          },
-          {
-            "id": "spell_power:water"
-          },
-          {
-            "id": "spell_power:soul"
+            "id": "spell_power:arcane"
           },
           {
             "id": "spell_power:lightning"
           },
           {
-            "id": "spell_power:nature"
+            "id": "spell_power:soul"
           },
           {
-            "id": "spell_power:generic"
-          },
-          {
-            "id": "spell_power:critical_chance"
+            "id": "spell_power:healing"
           },
           {
             "id": "spell_power:critical_damage"
+          },
+          {
+            "id": "spell_power:critical_chance"
           },
           {
             "id": "spell_power:haste"
@@ -245,97 +115,28 @@
             "id": "minecraft:generic.movement_speed"
           },
           {
-            "id": "minecraft:generic.movement_efficiency"
-          },
-          {
-            "id": "minecraft:generic.water_movement_efficiency"
-          },
-          {
-            "id": "minecraft:generic.jump_strength"
-          },
-          {
-            "id": "minecraft:generic.step_height"
-          },
-          {
-            "id": "minecraft:generic.gravity"
-          },
-          {
-            "id": "minecraft:player.sneaking_speed"
-          },
-          {
             "id": "combat_roll:count"
           },
           {
-            "id": "combat_roll:distance"
-          },
-          {
             "id": "combat_roll:recharge"
+          },
+          {
+            "id": "combat_roll:distance"
           }
         ],
         "blacklist": []
       },
       {
-        "header": "Witcher",
+        "header": "Other",
         "attributes": [
           {
-            "id": "witcher_rpg:sign_intensity"
+            "id": "spell_engine:healing_taken"
           },
           {
-            "id": "witcher_rpg:aard_intensity"
-          },
-          {
-            "id": "witcher_rpg:axii_intensity"
-          },
-          {
-            "id": "witcher_rpg:igni_intensity"
-          },
-          {
-            "id": "witcher_rpg:quen_intensity"
-          },
-          {
-            "id": "witcher_rpg:yrden_intensity"
-          },
-          {
-            "id": "witcher_rpg:adrenaline_modifier"
-          }
-        ],
-        "blacklist": []
-      },
-      {
-        "header": "Utility",
-        "attributes": [
-          {
-            "id": "minecraft:player.entity_interaction_range"
-          },
-          {
-            "id": "ranged_weapon:velocity"
-          },
-          {
-            "id": "minecraft:generic.safe_fall_distance"
-          },
-          {
-            "id": "minecraft:generic.fall_damage_multiplier"
-          },
-          {
-            "id": "minecraft:generic.oxygen_bonus"
+            "id": "spell_engine:damage_taken"
           },
           {
             "id": "minecraft:generic.luck"
-          },
-          {
-            "id": "minecraft:generic.scale"
-          },
-          {
-            "id": "minecraft:player.mining_efficiency"
-          },
-          {
-            "id": "minecraft:player.block_break_speed"
-          },
-          {
-            "id": "minecraft:player.submerged_mining_speed"
-          },
-          {
-            "id": "minecraft:player.block_interaction_range"
           }
         ],
         "blacklist": []
@@ -347,13 +148,5 @@
     "sidePadding": 8,
     "textScale": 0.8,
     "textTheme": "DARK"
-  },
-  "multiplierAttributesBase1": [
-    "minecraft:generic.burning_time",
-    "minecraft:generic.fall_damage_multiplier",
-    "minecraft:generic.gravity",
-    "minecraft:generic.scale",
-    "minecraft:player.block_break_speed",
-    "minecraft:player.submerged_mining_speed"
-  ]
+  }
 }
