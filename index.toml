@@ -3385,6 +3385,69 @@ file = "config/zoomify.json"
 hash = "60a78fe1b271ce9b53e295235eb5a7cdb3a8692ca583fdaa7f5bc09f9049e2f4"
 
 [[files]]
+file = "datapacks/DnT Nether Keep Fix.zip"
+hash = "dd773edba9b6489339108b6044c2c340fe36396e9e352ae3009c5b15fb3cce63"
+
+[[files]]
+file = "datapacks/DnT NoFun v1.0.pw.toml"
+hash = "b2af1c75a3f6e462f26200942ee43104e6a4f21f7568c6aee2526c8bab07c7a4"
+metafile = true
+
+[[files]]
+file = "datapacks/DungeonHeroes_AdvancementTweaks.zip"
+hash = "50ee1f8f9f9e130c4d198a2669827feec050232878698dcf809a9f32db82720f"
+
+[[files]]
+file = "datapacks/DungeonHeroes_BrewingFixTemp.zip"
+hash = "f1526de3d56c5f0e225b2e6364f5df8a1cdfc149b2cd20ce1c2c0f3369090adc"
+
+[[files]]
+file = "datapacks/DungeonHeroes_DisabledContent.zip"
+hash = "01048f938d3b502befbfced10ab6b5668a4bd74be55933aec39186a1d7838ad3"
+
+[[files]]
+file = "datapacks/DungeonHeroes_Quest.zip"
+hash = "198ddccffed2f6229aa71e24051a2be6802ec7bf404c54f022bb317f999241e5"
+
+[[files]]
+file = "datapacks/DungeonHeroes_TrinketSlots.zip"
+hash = "c663d82e50273a7f7b2120813736ee88d60d29fa6bf58682e23cacf02830b209"
+
+[[files]]
+file = "datapacks/DungeonHeroes_VillageFix.zip"
+hash = "e6e2ff5885cf677addaaca410a200ab7635268518992519a5f3c5bdb801f0f89"
+
+[[files]]
+file = "datapacks/Remove_Terralith_Intro_Message_v1.1.pw.toml"
+hash = "05d600c4541f4bbbc6a25bc8d981f39e24d67f4225aee88ac9321e50c32e19ca"
+metafile = true
+
+[[files]]
+file = "datapacks/VillageTaverns_BrewinChewin.zip"
+hash = "3411f5fd12ce4f02f14b9f3b9e3a29c05ec9104677594040a1fb11cbe0be890c"
+
+[[files]]
+file = "datapacks/WhenDungeonsArise-LootTweaks-1.21.1-2.1.64.zip"
+hash = "de01f65e39a8f95308d4f9b98b93ceec655a56e6d92aeda851e94215663b7715"
+
+[[files]]
+file = "datapacks/WhenDungeonsArise-NoCoolEnchantments-2.1.64-1.21.1-1.0.3.zip"
+hash = "d77cd935f76a5e6e80f72f314ff670915d30f6d20bdaa0ec813726d156ddf747"
+
+[[files]]
+file = "datapacks/YoureInGraveDanger_BagOfHoldingFix.zip"
+hash = "d3fdd523932ce0ed622f4f53ffc4b7073201c5f3af4852bae4e4f57b73fca506"
+
+[[files]]
+file = "datapacks/no-surface-lava-lakes_1.20.pw.toml"
+hash = "3a435fed2796efb03191bdad019f7b90aa94e2f88b42ce879e801d38fd7337f7"
+metafile = true
+
+[[files]]
+file = "datapacks/ssp-datapack-example-1.21.x.zip"
+hash = "49a9af1bfa715047e7f50371c0032e200f50cf7d7c7e27f76d8cfdebf368480e"
+
+[[files]]
 file = "global_packs/required_data/DungeonHeroes_Passives.zip"
 hash = "a85d51f8c22b7fd6d3f2385fe147eadc5e97ab0948ff925385623aa01fe8cc6f"
 
@@ -4119,6 +4182,10 @@ metafile = true
 file = "mods/loot-n-explore.pw.toml"
 hash = "089e05deac808b8cf6ed2648d3309ca0442c8c55dd0e5cde082a499e8fdc4a79"
 metafile = true
+
+[[files]]
+file = "mods/lootsight.jar"
+hash = "cb2bf616dcae122d1bea3050d404399ad0ce1ded7a875f2d579d82319b289e52"
 
 [[files]]
 file = "mods/mages-guild-rpg-structures.pw.toml"

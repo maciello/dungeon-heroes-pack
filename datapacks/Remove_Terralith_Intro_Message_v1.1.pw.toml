@@ -1,0 +1,13 @@
+name = "Remove_Terralith_Intro_Message_v1.1"
+filename = "Remove_Terralith_Intro_Message_v1.1.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sk4iFZGy/versions/L5lkBuqD/Remove_Terralith_Intro_Message_v1.1.zip"
+hash-format = "sha512"
+hash = "f24541b53c3297f4fb1d7aa40debfa11574f2c08690f9537f0d289b96fc3ea69f3585de5f7f2ab7ab66469cdba1a06708bf8944c072ff3695982941d387ea429"
+
+[update]
+[update.modrinth]
+mod-id = "sk4iFZGy"
+version = "L5lkBuqD"

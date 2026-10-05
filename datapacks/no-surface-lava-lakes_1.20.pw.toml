@@ -1,0 +1,13 @@
+name = "no-surface-lava-lakes_1.20"
+filename = "no-surface-lava-lakes_1.20.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Osg40ECn/versions/Bk6yxcDr/no-surface-lava-lakes_1.20.zip"
+hash-format = "sha512"
+hash = "1bf54603b4352fa2c896183376034ef58e90a183102579afcdf6535454b9376b1b1f51006b44885ea669ce718dcbc1a01683aa9220daa6912e58fa142d4d5479"
+
+[update]
+[update.modrinth]
+mod-id = "Osg40ECn"
+version = "Bk6yxcDr"
