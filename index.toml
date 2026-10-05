@@ -2574,7 +2574,7 @@ hash = "66b4381d7d2230f64c12f3a7109aa50e6a60af7974e52d0a546797bcd3efbfc8"
 
 [[files]]
 file = "config/more_relics/effects.json"
-hash = "84f3031d795fed5c274f855bbfda6b1fd3a08a01973f106b601eba064468a279"
+hash = "b277d06c0bfa07e0f83916be31f45aa43bff92e51aff73a727abd4aa98c9d81e"
 
 [[files]]
 file = "config/more_relics/items.json"
@@ -2730,11 +2730,11 @@ hash = "61280276e07d2fddc49975d45bc6399d96afa67c3f51ce4971486722f1ea6109"
 
 [[files]]
 file = "config/relics/effects.json"
-hash = "d05ac0e50115537b066d08b4716391579dfcee05f7cb6dbb7cd422517b3389eb"
+hash = "dcdba07a29bb4f5f66716dcf9069859b146230b9a54e1ef0573769453ed34ff6"
 
 [[files]]
 file = "config/relics/items_v2.json"
-hash = "d5ecbe089e9b5842f4069f6e87c738bffd3b8941b567a514fc856df43238ac2f"
+hash = "7160f9809462349e663c53fed168bef35376289dcde91ef637baf63a5d09405e"
 
 [[files]]
 file = "config/replaymod.json"
@@ -3383,6 +3383,10 @@ hash = "60a78fe1b271ce9b53e295235eb5a7cdb3a8692ca583fdaa7f5bc09f9049e2f4"
 [[files]]
 file = "global_packs/required_data/DungeonHeroes_Passives.zip"
 hash = "c5ee0e9926f6c9e992702d15dbb3a3a1e84fe6d20d2a1fd310dc0ec24c56baf0"
+
+[[files]]
+file = "global_packs/required_data/DungeonHeroes_Relics.zip"
+hash = "f00a023382c23bf0f7faa5ceb637596365f67db3f333ae5897851e0b2d72784b"
 
 [[files]]
 file = "mods/Endless Inventory-fabric-1.21.1-1.1.4-serverfix.jar"

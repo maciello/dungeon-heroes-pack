@@ -147,7 +147,13 @@
     },
     "relics_rpgs:lesser_use_damage": {
       "durability": 0,
-      "attributes": []
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": -0.1,
+          "operation": "ADD_MULTIPLIED_BASE"
+        }
+      ]
     },
     "relics_rpgs:lesser_use_dex": {
       "durability": 0,
