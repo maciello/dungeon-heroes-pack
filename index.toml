@@ -3382,7 +3382,7 @@ hash = "60a78fe1b271ce9b53e295235eb5a7cdb3a8692ca583fdaa7f5bc09f9049e2f4"
 
 [[files]]
 file = "global_packs/required_data/DungeonHeroes_Passives.zip"
-hash = "79734b7320c9decd3e07d7f592920a7905084960c489af39be38440131d1bd3e"
+hash = "739275ef411919c9c722e3df88c46c43ec64642767cf846ac10b8cc8e57fe6aa"
 
 [[files]]
 file = "mods/Endless Inventory-fabric-1.21.1-1.1.4-serverfix.jar"
