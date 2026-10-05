@@ -60,7 +60,7 @@
 	// Allow evasion to work while the player is casting a spell
 	"attribute_evasion_allowed_while_spell_casting": false,
 	// Allow evasion to work while the player is using an item (e.g. eating, drawing a bow)
-	"attribute_evasion_allowed_while_item_usage": false,
+	"attribute_evasion_allowed_while_item_usage": true,
 	// Determines the focus mode (AREA vs DIRECT) for melee skills.
 	"melee_skills_area_focus_mode": true,
 	/* Relations determine which cases the effect of a player casted spell can effect a target.

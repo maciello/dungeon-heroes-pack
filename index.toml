@@ -1638,7 +1638,7 @@ hash = "a92e49daf445e11991974375cb4e3a05d33efb38d9795180aea5d0f55ca5cc7d"
 
 [[files]]
 file = "config/easymagic-server.toml"
-hash = "20fe634825efe971557d1b39d9cccf04166e5be205a297d33c9106875c37082c"
+hash = "b2860a71cdc35a6f3cee847622a7085c35d3691f26ca7b4c84098e14bc4369dc"
 
 [[files]]
 file = "config/ecologics.json"
@@ -2898,7 +2898,7 @@ hash = "0b5bdb344e4a4f804a7ff5a7d2ebad5d59f98ddd2aa4d5bc810cfc8feceb473b"
 
 [[files]]
 file = "config/spell_engine/server.json5"
-hash = "a1f8cb3071bf9db94ff246eb94607be6e206ae58798555eec04c7ec53ebe0db6"
+hash = "f06f964132c8959c8d8cda1b6deb137a4118667d6e524c4abd4755e6e97805a4"
 
 [[files]]
 file = "config/spell_engine/spell_container_templates_v2.json"
@@ -3386,7 +3386,7 @@ hash = "60a78fe1b271ce9b53e295235eb5a7cdb3a8692ca583fdaa7f5bc09f9049e2f4"
 
 [[files]]
 file = "global_packs/required_data/DungeonHeroes_Passives.zip"
-hash = "edf37fd476adf6df44cba429d81e9a124140f65ee1b45449c64a8ca712b14df3"
+hash = "a452f39fc61f98ae3d62e1d71d9ccb2b583450caccdd3e3410c274e4807d609a"
 
 [[files]]
 file = "global_packs/required_data/DungeonHeroes_Relics.zip"
@@ -3673,7 +3673,7 @@ metafile = true
 
 [[files]]
 file = "mods/dh_addon.jar"
-hash = "7008287980b084e445ebc6ef69a0cfe45a60b50c5d44125f7e288bb3771e994e"
+hash = "65482b7e785f7844c8468b253e9b29447d0a3891e9ed72273e76f3c1e82e13cb"
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"

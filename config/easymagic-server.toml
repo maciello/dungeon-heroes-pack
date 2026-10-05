@@ -19,7 +19,7 @@ lenient_bookshelves = true
 #Default Value: 1
 # Default: 1
 # Range: 0 ~ 64
-reroll_catalyst_cost = 0
+reroll_catalyst_cost = 1
 #Choose how many enchantments are shown on the enchanting tooltip, if any at all.
 #Default Value: SINGLE
 #Allowed Values: NONE, SINGLE, ALL
@@ -40,4 +40,4 @@ dedicated_reroll_catalyst = false
 #Default Value: 5
 # Default: 5
 # Range: > 0
-reroll_experience_points_cost = 0
+reroll_experience_points_cost = 5
