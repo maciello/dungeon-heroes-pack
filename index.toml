@@ -4184,10 +4184,6 @@ hash = "089e05deac808b8cf6ed2648d3309ca0442c8c55dd0e5cde082a499e8fdc4a79"
 metafile = true
 
 [[files]]
-file = "mods/lootsight.jar"
-hash = "cb2bf616dcae122d1bea3050d404399ad0ce1ded7a875f2d579d82319b289e52"
-
-[[files]]
 file = "mods/mages-guild-rpg-structures.pw.toml"
 hash = "ef78027861ce8dfcebc7f1e351c4d886a712f100500ce459ef3d75fc3bb47723"
 metafile = true
