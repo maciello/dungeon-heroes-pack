@@ -2601,6 +2601,10 @@ file = "config/moreculling.toml"
 hash = "60eb0902eac918d39fb5eb7df66314f5748aef0259b4ad5bdeacd27dfff120ca"
 
 [[files]]
+file = "config/moredurability.json"
+hash = "d7548a9b105a2c521bb0db133aae8413b888dbd97bf4fba90eb5bcf237777bd8"
+
+[[files]]
 file = "config/mrpgc_skill_tree/effects_v0.json"
 hash = "7c77aba1650a64b81ce52e642cff3f990a17f8ed51f4211de3e58ae702aa44d9"
 
@@ -3382,7 +3386,7 @@ hash = "60a78fe1b271ce9b53e295235eb5a7cdb3a8692ca583fdaa7f5bc09f9049e2f4"
 
 [[files]]
 file = "global_packs/required_data/DungeonHeroes_Passives.zip"
-hash = "4a7205d5a841060f5aac789afc97cdc4799b61074e2c3e7f81ebf27700f66e15"
+hash = "dd48b58bf50b34d2000b87412d52842340285c71171e0af3f405ae8703605fae"
 
 [[files]]
 file = "global_packs/required_data/DungeonHeroes_Relics.zip"
@@ -3669,7 +3673,7 @@ metafile = true
 
 [[files]]
 file = "mods/dh_addon.jar"
-hash = "b41b7bfbc0d5a1ffd71d670bb0e9a641f6395f8fbe74d6a109d95488109bc223"
+hash = "56b67d6138e8841f0e4d7a56a73875f9cbab0bc29295a318356c73361940000f"
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
@@ -4224,6 +4228,11 @@ metafile = true
 [[files]]
 file = "mods/morechathistory.pw.toml"
 hash = "096bce1d87ff7f759d07ae6501043c5d2db1bcdffb5ea566425843f12ff8e348"
+metafile = true
+
+[[files]]
+file = "mods/moredurability.pw.toml"
+hash = "1fdbbd995a1d0a43fbf8da8901bcec9963422582d6833ed7e7a16a4a5895bd9c"
 metafile = true
 
 [[files]]

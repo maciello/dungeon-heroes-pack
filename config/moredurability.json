@@ -1,0 +1,46 @@
+{
+  "ArmorItem": {
+    "enabled": true,
+    "multiplier": 4.0
+  },
+  "ToolItem": {
+    "enabled": true,
+    "multiplier": 2.0
+  },
+  "SwordItem": {
+    "enabled": true,
+    "multiplier": 2.0
+  },
+  "BowItem": {
+    "enabled": true,
+    "multiplier": 2.0
+  },
+  "CrossbowItem": {
+    "enabled": true,
+    "multiplier": 2.0
+  },
+  "FishingRodItem": {
+    "enabled": true,
+    "multiplier": 2.0
+  },
+  "ShearsItem": {
+    "enabled": true,
+    "multiplier": 2.0
+  },
+  "FlintAndSteelItem": {
+    "enabled": true,
+    "multiplier": 2.0
+  },
+  "TridentItem": {
+    "enabled": true,
+    "multiplier": 2.0
+  },
+  "ShieldItem": {
+    "enabled": true,
+    "multiplier": 2.0
+  },
+  "RangedWeaponItem": {
+    "enabled": true,
+    "multiplier": 2.0
+  }
+}

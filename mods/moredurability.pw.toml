@@ -1,0 +1,13 @@
+name = "MoreDurability (More Durability)"
+filename = "moredurability-mc1.21.1-fabric-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hTqvimkW/versions/cpzeIFcO/moredurability-mc1.21.1-fabric-1.0.2.jar"
+hash-format = "sha512"
+hash = "7190e353967123882d85467dbe74556a931c4b4aeeda7619c6e9da0feb6d2aeb9a589ee898f1cf40032120e9418a30d16d043832eff5a3d18de5639c3c63bb74"
+
+[update]
+[update.modrinth]
+mod-id = "hTqvimkW"
+version = "cpzeIFcO"
