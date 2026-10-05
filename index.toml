@@ -3382,7 +3382,7 @@ hash = "60a78fe1b271ce9b53e295235eb5a7cdb3a8692ca583fdaa7f5bc09f9049e2f4"
 
 [[files]]
 file = "global_packs/required_data/DungeonHeroes_Passives.zip"
-hash = "f735e8a0cb8a329d4c44e2727def767b40055e0280412068b511c326b535a844"
+hash = "7b239e3cac93dd1bc1553e1ca0314d6b17dd1b0fea039292262bba9164919089"
 
 [[files]]
 file = "global_packs/required_data/DungeonHeroes_Relics.zip"
@@ -3669,7 +3669,7 @@ metafile = true
 
 [[files]]
 file = "mods/dh_addon.jar"
-hash = "f9d727e17a600bd11401eed1ea0ee73e30b61da9d9e24a8f507ade9cf740a173"
+hash = "b41b7bfbc0d5a1ffd71d670bb0e9a641f6395f8fbe74d6a109d95488109bc223"
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
@@ -4695,6 +4695,10 @@ metafile = true
 file = "mods/yungs-extras.pw.toml"
 hash = "745fd5cd0b5ddaca6b0fba915428c63a47d32ee9e281c3661b41aa34dd8b653b"
 metafile = true
+
+[[files]]
+file = "scripts/dh_weapon_elements.zs"
+hash = "17ed6ef4d561cdce9c0db0a7fd93bc30eef936dbce0956273873dd4cc41544b7"
 
 [[files]]
 file = "scripts/farmers_delight.zs"
