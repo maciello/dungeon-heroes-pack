@@ -3382,7 +3382,7 @@ hash = "60a78fe1b271ce9b53e295235eb5a7cdb3a8692ca583fdaa7f5bc09f9049e2f4"
 
 [[files]]
 file = "global_packs/required_data/DungeonHeroes_Passives.zip"
-hash = "a8beb237bd5d5d3aadc70826e92d9e672705c3aa3242299eae561fbeb5b06162"
+hash = "c5ee0e9926f6c9e992702d15dbb3a3a1e84fe6d20d2a1fd310dc0ec24c56baf0"
 
 [[files]]
 file = "mods/Endless Inventory-fabric-1.21.1-1.1.4-serverfix.jar"
@@ -3662,6 +3662,10 @@ metafile = true
 file = "mods/debugify.pw.toml"
 hash = "7cb9e98526468233fbec6f949c78a8afc5ef29447868e1d11cb71293237966a2"
 metafile = true
+
+[[files]]
+file = "mods/dh_addon.jar"
+hash = "2a7c34353ca80ab5250d5afdb31c004e5aabf25c8a50c6197bdf6e65239d4813"
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
