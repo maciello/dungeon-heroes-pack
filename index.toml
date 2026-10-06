@@ -3449,7 +3449,7 @@ hash = "49a9af1bfa715047e7f50371c0032e200f50cf7d7c7e27f76d8cfdebf368480e"
 
 [[files]]
 file = "global_packs/required_data/DungeonHeroes_Passives.zip"
-hash = "f488c71de9cd12a13ead8ab0c486f4342f2c4fe6943feb6cbdaeb4764065cafc"
+hash = "2c7376916ab7e4526be1be2c3fa9f78800c2aeeea3de2cea08f317977ddd7348"
 
 [[files]]
 file = "global_packs/required_data/DungeonHeroes_Relics.zip"
@@ -3736,7 +3736,7 @@ metafile = true
 
 [[files]]
 file = "mods/dh_addon.jar"
-hash = "23d928a9ea077356f975d73aca799f1cc64e5d0c5626348b30bc84104016e6ae"
+hash = "6f4fa0154e17831d5836dc033d1d98453e466b79c887c528ff6587fae6817a41"
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
@@ -4182,6 +4182,10 @@ metafile = true
 file = "mods/loot-n-explore.pw.toml"
 hash = "089e05deac808b8cf6ed2648d3309ca0442c8c55dd0e5cde082a499e8fdc4a79"
 metafile = true
+
+[[files]]
+file = "mods/lootsight.jar"
+hash = "a434328ea6e02c80dec84cacd0235734460db901bf429a06a06baff24f88f3a8"
 
 [[files]]
 file = "mods/mages-guild-rpg-structures.pw.toml"
