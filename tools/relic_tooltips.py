@@ -503,14 +503,14 @@ def heal_danger(ctx: Ctx) -> str:
     below = t.target_conditions[0]["health_percent_below"]
     coef = a.heal["spell_power_coefficient"]  # type: ignore[index]
     return (
-        f"Passive: Healing a target below {pct(below)} health heals it again for {pct(coef)} "
+        f"Passive: Healing a target below {pct(below)} health triggers a bonus heal of {pct(coef)} "
         f"of your spell power (counted as at least {num(a.min_power)})."  # type: ignore[arg-type]
     )
 
 
 def healing_cleanse(ctx: Ctx) -> str:
     t = ctx.spell.passive.triggers[0]  # type: ignore[union-attr]
-    return f"Passive: {pct(t.chance)} chance when your healing spell hits a target with a harmful effect to remove its harmful effects."  # type: ignore[arg-type]
+    return f"Passive: {pct(t.chance)} chance when your healing spell hits a target with a harmful effect to remove one random harmful effect from it."  # type: ignore[arg-type]
 
 
 def liandrys(ctx: Ctx) -> str:
@@ -539,8 +539,8 @@ def kircheis(ctx: Ctx) -> str:
     every = "every second" if tick == 1 else f"every {secs(tick)}"
     clause = trigger_clause(sp.passive.triggers)  # type: ignore[union-attr]
     return (
-        f"Passive: {clause} to create a lightning field at the target ({num(cloud.volume['radius'])}-block radius, "
-        f"{secs(cloud.time_to_live_seconds)}) that deals {pct(coef)} of your spell power to enemies inside {every}."
+        f"Passive: {clause} to create a field of lightning arcs at the target ({num(cloud.volume['radius'])}-block radius, "
+        f"{secs(cloud.time_to_live_seconds)}) that deals {pct(coef)} of your ranged physical spell power to enemies inside {every}."
     )
 
 
