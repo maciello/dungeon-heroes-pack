@@ -2,3 +2,4 @@ README.md
 docs/
 tools/
 justfile
+.ruff_cache/
