@@ -4770,7 +4770,7 @@ metafile = true
 
 [[files]]
 file = "scripts/dh_weapon_elements.zs"
-hash = "17ed6ef4d561cdce9c0db0a7fd93bc30eef936dbce0956273873dd4cc41544b7"
+hash = "452d5d8fae358512f633a9844b660100180d28f79d49adb1223602d5a93e8048"
 
 [[files]]
 file = "scripts/farmers_delight.zs"
