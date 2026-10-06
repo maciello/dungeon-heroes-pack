@@ -22,3 +22,7 @@ relic-trigger-guard:
 # Fail if a relic impact trigger can match passive-spell impacts.
 relic-trigger-guard-check:
     uv run tools/relic_trigger_guard.py check
+
+# Slice the game data the passives sim reads out of the local PolyMC instance into instance_slice.tar.gz.
+instance-slice:
+    uv run tools/instance_slice.py
