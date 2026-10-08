@@ -2050,7 +2050,7 @@ hash = "8665ed4c5d02d91df197bce9e63a8a0af2c2e0de1c58394f65745869e4d6d096"
 
 [[files]]
 file = "config/global_packs.toml"
-hash = "82a46308d15446177b5f20cc00730a944b61432795f54cfbd4d1b6a00c17864f"
+hash = "f01208c1cb02b8fd68d6284d2c8f26c1c4cece0bf4788d3710f27a720e773ea2"
 
 [[files]]
 file = "config/goblintraders-entities.toml"
@@ -3454,6 +3454,10 @@ hash = "461c9ef3bdd57b4e88d6bd608af4d947ebfd12136c33253aec10a9f936854016"
 [[files]]
 file = "global_packs/required_data/DungeonHeroes_Relics.zip"
 hash = "0801e7800b8e59d1e06e0d2ff89e6769471db3c3be301806c560badc6d21c603"
+
+[[files]]
+file = "global_packs/required_resources/DungeonHeroes_RelicTooltips.zip"
+hash = "e60767652f1486e9c757973c2fc943ec43872e5b60f775e881c42b21ac4d3f8c"
 
 [[files]]
 file = "mods/Endless Inventory-fabric-1.21.1-1.1.4-serverfix.jar"
