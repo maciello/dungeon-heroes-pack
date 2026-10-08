@@ -854,7 +854,7 @@ hash = "754feb4474a3f4d9fe6bd08f38c248fd5a796ed51f38d7d5704680250f3a34ca"
 
 [[files]]
 file = "config/bettercombat/server.json5"
-hash = "3f50d34e55861d3ca4d9557bf21c154d297abe01f37d11c6a84d70a2255b5e83"
+hash = "b58c51b7c7eecaa374f568bc0f07b63828bd9f29bce72e6058134148ca341130"
 
 [[files]]
 file = "config/bettercombat/weapon_trails.json"
@@ -2574,7 +2574,7 @@ hash = "66b4381d7d2230f64c12f3a7109aa50e6a60af7974e52d0a546797bcd3efbfc8"
 
 [[files]]
 file = "config/more_relics/effects.json"
-hash = "b277d06c0bfa07e0f83916be31f45aa43bff92e51aff73a727abd4aa98c9d81e"
+hash = "69a204a3b6b1ae14d558b4413df4c5d13bb4c0a04cabe5013da3ceee1593081a"
 
 [[files]]
 file = "config/more_relics/items.json"
@@ -3449,11 +3449,11 @@ hash = "49a9af1bfa715047e7f50371c0032e200f50cf7d7c7e27f76d8cfdebf368480e"
 
 [[files]]
 file = "global_packs/required_data/DungeonHeroes_Passives.zip"
-hash = "c64d78b9ace0efac1a7dd7487101721f33941863af46d5af3e972682eb95694c"
+hash = "461c9ef3bdd57b4e88d6bd608af4d947ebfd12136c33253aec10a9f936854016"
 
 [[files]]
 file = "global_packs/required_data/DungeonHeroes_Relics.zip"
-hash = "f00a023382c23bf0f7faa5ceb637596365f67db3f333ae5897851e0b2d72784b"
+hash = "0801e7800b8e59d1e06e0d2ff89e6769471db3c3be301806c560badc6d21c603"
 
 [[files]]
 file = "mods/Endless Inventory-fabric-1.21.1-1.1.4-serverfix.jar"

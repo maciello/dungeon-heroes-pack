@@ -40,8 +40,8 @@
     "more_relics:medium_air_power": {
       "attributes": [
         {
-          "attribute": "spell_power:air",
-          "value": 0.2,
+          "attribute": "spell_power:haste",
+          "value": 2.0,
           "operation": "ADD_MULTIPLIED_BASE"
         }
       ]
