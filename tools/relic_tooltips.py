@@ -24,6 +24,7 @@ import json
 import re
 import zipfile
 from collections.abc import Callable
+from itertools import pairwise
 from pathlib import Path
 from typing import Any
 
@@ -127,6 +128,8 @@ class AreaImpact(Model):
 
 
 class Spell(Model):
+    type: str = "ACTIVE"
+    modifiers: list[dict[str, Any]] = Field(default_factory=list)
     active: dict[str, Any] | None = None
     passive: Passive | None = None
     target: Target | None = None
@@ -544,6 +547,110 @@ def kircheis(ctx: Ctx) -> str:
     )
 
 
+# Spells the orbs modify: name from the mod's en_us.json `spell.<ns>.<id>.name`, and what the
+# spell's power scales (its impact types: DAMAGE, HEAL).
+TARGET_SPELLS = {
+    "wizards:arcane_bolt": ("Arcane Bolt", "damage"),
+    "wizards:frost_shard": ("Frost Shard", "damage"),
+    "wizards:frostbolt": ("Frostbolt", "damage"),
+    "paladins:holy_shock": ("Holy Shock", "damage and healing"),
+    "paladins:heal": ("Heal", "healing"),
+    "elemental_wizards_rpg:aqua_waterball": ("Waterballs", "damage and healing"),
+    "elemental_wizards_rpg:aqua_splash": ("Splash", "damage and healing"),
+    "elemental_wizards_rpg:terra_stone_spear": ("Stone Spear", "damage"),
+    "elemental_wizards_rpg:terra_stone_throw": ("Stone Throw", "damage"),
+    "elemental_wizards_rpg:wind_air_cutter": ("Air Cutter", "damage"),
+    "elemental_wizards_rpg:wind_gust": ("Gust", "damage"),
+}
+# Perks merge by adding every field, so orbs write these defaults as 0 (relics/build.py perks()).
+PERK_PADDING = {
+    "ricochet_range": 0,
+    "chain_reaction_triggers": 0,
+    "chain_reaction_increment": 0,
+}
+
+
+def modifier_parts(ctx: Ctx, mod: dict[str, Any]) -> list[str]:
+    """Phrases for one Spell.Modifier; raises on any field it does not word."""
+    m = dict(mod)
+    noun = TARGET_SPELLS[m.pop("spell_pattern")][1]
+    parts: list[str] = []
+    if pm := m.pop("power_modifier", None):
+        pm = dict(pm)
+        assert pm.pop("dh_more"), "only MORE/LESS (dh_more) multipliers are worded"
+        v = pm.pop("power_multiplier")
+        parts.append(f"{pct(abs(v))} {'more' if v > 0 else 'less'} {noun}")
+        if c := pm.pop("critical_chance_bonus", 0):
+            parts.append(f"+{pct(c)} crit chance")
+        if c := pm.pop("critical_damage_bonus", 0):
+            parts.append(f"+{pct(c)} crit damage")
+        assert not pm, f"unworded power_modifier fields {pm}"
+    if launch := m.pop("projectile_launch", None):
+        yaws = sorted(o["yaw"] for o in m.pop("dh_direction_offsets"))
+        steps = {b - a for a, b in pairwise(yaws)}
+        # merge adds: velocity 1 + 0, extra_launch_delay 2 + (-2) = all at once
+        assert launch == {
+            "velocity": 0,
+            "extra_launch_count": len(yaws) - 1,
+            "extra_launch_delay": -2,
+        }
+        assert len(steps) == 1, f"uneven fan {yaws}"
+        parts.append(f"{len(yaws)} projectiles in a fan, {num(steps.pop())}° apart")
+    if perks := m.pop("projectile_perks", None):
+        perks = {k: v for k, v in perks.items() if PERK_PADDING.get(k) != v}
+        if n := perks.pop("ricochet", 0):
+            parts.append(f"ricochets to {n} more {'enemy' if n == 1 else 'enemies'}")
+        if n := perks.pop("chain_reaction_size", 0):
+            parts.append(f"each splits into {n} on impact")
+        if n := perks.pop("pierce", 0):
+            parts.append(f"pierces {n} {'enemy' if n == 1 else 'enemies'}")
+        assert not perks, f"unworded projectile_perks {perks}"
+    if s := m.pop("projectile_scale_multiply", 0):
+        parts.append(
+            f"{num(1 + s)}x projectile size"
+        )  # final scale = 1 + sum (Spell.java)
+    if area := m.pop("replacing_area_impact", None):
+        assert set(area) == {"radius"}, (
+            f"unworded area fields {area}"
+        )  # dropoff default NONE
+        parts.append(f"hits everyone within {num(area['radius'])} blocks of the target")
+    if d := m.pop("cooldown_duration_deduct", 0):
+        parts.append(f"{secs(abs(d))} {'shorter' if d > 0 else 'longer'} cooldown")
+    if m.pop("mutate_impacts", None) == "APPEND":
+        for imp in m.pop("impacts"):
+            assert imp["action"].get("apply_to_caster"), (
+                "appended impact must target the caster"
+            )
+            e = Action.model_validate(imp["action"]).status_effect
+            assert e and e.effect_id and e.apply_mode == "SET"
+            parts.append(
+                f"each hit gives you {effect_phrase(ctx, e.effect_id)} for {secs(e.duration)}"
+            )
+    assert not m, f"unworded modifier fields {sorted(m)}"
+    return parts
+
+
+def orb_modifier(ctx: Ctx) -> str:
+    """Always-on MODIFIER spell: shared changes first, then each spell's own."""
+    sp = ctx.spell
+    assert sp.type == "MODIFIER" and sp.modifiers
+    rows = [
+        (TARGET_SPELLS[m["spell_pattern"]][0], modifier_parts(ctx, m))
+        for m in sp.modifiers
+    ]
+    common = [p for p in rows[0][1] if all(p in r for _, r in rows)]
+    out = (
+        [f"Your {join_and([n for n, _ in rows])}: {', '.join(common)}."]
+        if common
+        else []
+    )
+    for name, parts in rows:
+        own = [p for p in parts if p not in common]
+        if own:
+            out.append(f"{'' if common else 'Your '}{name}: {', '.join(own)}.")
+    return " ".join(out)
+
+
 # Spells deliberately not overridden (stock text stays), with the reason.
 SKIPPED = {
     "more_relics:superior_mejais_soulstealer": "stash (10s) and impact (20s) durations disagree; re-delivery on later kills unverified",
@@ -584,6 +691,12 @@ DESCRIBERS: dict[str, Describer] = {
     "relics_rpgs:superior_use_area_defense_health": area_health_buff,
     "relics_rpgs:superior_use_zone_healing_taken": zone_buff,
     "relics_rpgs:superior_use_zone_spell_power": zone_buff,
+    "relics_rpgs:medium_use_arcane_power": orb_modifier,
+    "relics_rpgs:medium_use_frost_power": orb_modifier,
+    "relics_rpgs:medium_use_healing_power": orb_modifier,
+    "more_relics:medium_use_air_power": orb_modifier,
+    "more_relics:medium_use_earth_power": orb_modifier,
+    "more_relics:medium_use_water_power": orb_modifier,
     "more_relics:lesser_proc_air_water": passive_buff,
     "more_relics:lesser_proc_earth_nature": passive_buff,
     "more_relics:lesser_use_rage_power": passive_stacking_always,

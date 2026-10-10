@@ -510,7 +510,7 @@ hash = "43aa2701d17e26c045533a5b0500fa8c0639d4e62adcccd389ba3426378a80c0"
 
 [[files]]
 file = "config/attributefix/minecraft/generic.max_health.json"
-hash = "9d0ae1c8fda340e80aac17df9999ec1e9c7396a2327f63a40ea8006991201305"
+hash = "7e6dea503e433ef1dff3fd54972874c0488606818fe53d321a36e00f143d4eff"
 
 [[files]]
 file = "config/attributefix/minecraft/generic.movement_efficiency.json"
@@ -3449,7 +3449,7 @@ hash = "49a9af1bfa715047e7f50371c0032e200f50cf7d7c7e27f76d8cfdebf368480e"
 
 [[files]]
 file = "global_packs/required_data/DungeonHeroes_Passives.zip"
-hash = "461c9ef3bdd57b4e88d6bd608af4d947ebfd12136c33253aec10a9f936854016"
+hash = "301c0bccefbf1c7d24f423073817cc19663a84138d25a93d8f682fb7675b65aa"
 
 [[files]]
 file = "global_packs/required_data/DungeonHeroes_Relics.zip"
@@ -3457,7 +3457,7 @@ hash = "0801e7800b8e59d1e06e0d2ff89e6769471db3c3be301806c560badc6d21c603"
 
 [[files]]
 file = "global_packs/required_resources/DungeonHeroes_RelicTooltips.zip"
-hash = "e60767652f1486e9c757973c2fc943ec43872e5b60f775e881c42b21ac4d3f8c"
+hash = "1de54e56a4ca7d4208b71a5468bb1ef34fa29fef5d08e84dc39bbca0a471d7b2"
 
 [[files]]
 file = "mods/Endless Inventory-fabric-1.21.1-1.1.4-serverfix.jar"
@@ -3740,7 +3740,7 @@ metafile = true
 
 [[files]]
 file = "mods/dh_addon.jar"
-hash = "c9ff4d3322acd02dcd9774657bc0e6f64f7886f9a74a028e306812d149bbce59"
+hash = "03c9d77729759a94066472800067b671a1cf18bc1374c44486ef4968cbc08ad4"
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
