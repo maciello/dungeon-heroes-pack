@@ -3485,7 +3485,7 @@ hash = "49a9af1bfa715047e7f50371c0032e200f50cf7d7c7e27f76d8cfdebf368480e"
 
 [[files]]
 file = "global_packs/required_data/DungeonHeroes_Passives.zip"
-hash = "40e976324240eef6283aa72ec61e52bd6151a6c4bc1efa5c65ad5feaad8ee027"
+hash = "fd92b29dbcdd9ede0b72b5cd99c4b2d4a6f567d6dab2d0977c7f58c4ae8e95a2"
 
 [[files]]
 file = "global_packs/required_data/DungeonHeroes_Relics.zip"
@@ -3776,7 +3776,7 @@ metafile = true
 
 [[files]]
 file = "mods/dh_addon.jar"
-hash = "3988bff6db070612baa630dc61e62e8070c18914574c73bb256c7768f05caba7"
+hash = "cdd2e962a77670d6af0f0207459bb0e3960a4d0a13be213ab63b13b8ece1bfa6"
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
