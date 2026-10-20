@@ -16,7 +16,8 @@
           "modifier": {
             "power_multiplier": 0.3,
             "critical_chance_bonus": 0.0,
-            "critical_damage_bonus": 0.0
+            "critical_damage_bonus": 0.0,
+            "dh_more": false
           }
         }
       },
@@ -35,7 +36,8 @@
           "modifier": {
             "power_multiplier": 0.0,
             "critical_chance_bonus": 0.15,
-            "critical_damage_bonus": 0.25
+            "critical_damage_bonus": 0.25,
+            "dh_more": false
           }
         }
       }
@@ -56,7 +58,8 @@
           "modifier": {
             "power_multiplier": 0.3,
             "critical_chance_bonus": 0.0,
-            "critical_damage_bonus": 0.0
+            "critical_damage_bonus": 0.0,
+            "dh_more": false
           }
         }
       },
@@ -75,7 +78,8 @@
           "modifier": {
             "power_multiplier": 0.0,
             "critical_chance_bonus": 0.15,
-            "critical_damage_bonus": 0.25
+            "critical_damage_bonus": 0.25,
+            "dh_more": false
           }
         }
       }
@@ -96,7 +100,8 @@
           "modifier": {
             "power_multiplier": 0.3,
             "critical_chance_bonus": 0.0,
-            "critical_damage_bonus": 0.0
+            "critical_damage_bonus": 0.0,
+            "dh_more": false
           }
         }
       },
@@ -115,7 +120,8 @@
           "modifier": {
             "power_multiplier": 0.0,
             "critical_chance_bonus": 0.15,
-            "critical_damage_bonus": 0.25
+            "critical_damage_bonus": 0.25,
+            "dh_more": false
           }
         }
       }
@@ -136,7 +142,8 @@
           "modifier": {
             "power_multiplier": 0.3,
             "critical_chance_bonus": 0.0,
-            "critical_damage_bonus": 0.0
+            "critical_damage_bonus": 0.0,
+            "dh_more": false
           }
         }
       },
@@ -155,7 +162,8 @@
           "modifier": {
             "power_multiplier": 0.0,
             "critical_chance_bonus": 0.15,
-            "critical_damage_bonus": 0.25
+            "critical_damage_bonus": 0.25,
+            "dh_more": false
           }
         }
       }
@@ -176,7 +184,8 @@
           "modifier": {
             "power_multiplier": 0.0,
             "critical_chance_bonus": 1.0,
-            "critical_damage_bonus": 0.0
+            "critical_damage_bonus": 0.0,
+            "dh_more": false
           }
         }
       },
@@ -195,7 +204,8 @@
           "modifier": {
             "power_multiplier": 0.0,
             "critical_chance_bonus": 0.15,
-            "critical_damage_bonus": 0.25
+            "critical_damage_bonus": 0.25,
+            "dh_more": false
           }
         }
       }
@@ -216,7 +226,8 @@
           "modifier": {
             "power_multiplier": 0.0,
             "critical_chance_bonus": 1.0,
-            "critical_damage_bonus": 0.25
+            "critical_damage_bonus": 0.25,
+            "dh_more": false
           }
         }
       }

@@ -1,5 +1,5 @@
 {
-  "enabled": false,
+  "enabled": true,
   "goodRange": 1024,
   "searchResults": 9,
   "maxIcons": 3,

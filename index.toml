@@ -273,6 +273,42 @@ file = "config/attributefix/critical_strike/damage.json"
 hash = "85bc5671b741976a579ce449482d168e64e4fbe793b73822e66e183bf30d3508"
 
 [[files]]
+file = "config/attributefix/dungeon_heroes/ailment_duration.json"
+hash = "6a50a28a3820a8085fb2d43b0b3ba718ff8d9e0df9800e855d540c3c7a82d862"
+
+[[files]]
+file = "config/attributefix/dungeon_heroes/area_size.json"
+hash = "e5164d7578ba35760e41b0d8acf5384a4911d5aac541f1a9fe7c73c9dc09f915"
+
+[[files]]
+file = "config/attributefix/dungeon_heroes/bleed_damage.json"
+hash = "6a50a28a3820a8085fb2d43b0b3ba718ff8d9e0df9800e855d540c3c7a82d862"
+
+[[files]]
+file = "config/attributefix/dungeon_heroes/burn_damage.json"
+hash = "6a50a28a3820a8085fb2d43b0b3ba718ff8d9e0df9800e855d540c3c7a82d862"
+
+[[files]]
+file = "config/attributefix/dungeon_heroes/dot_damage.json"
+hash = "6a50a28a3820a8085fb2d43b0b3ba718ff8d9e0df9800e855d540c3c7a82d862"
+
+[[files]]
+file = "config/attributefix/dungeon_heroes/last_stand.json"
+hash = "17ef1233e3020b53a3835793bc771c00114af5b167f57cb03506098dbc49e535"
+
+[[files]]
+file = "config/attributefix/dungeon_heroes/low_life_resist.json"
+hash = "a6d128ced3fe530a9c52c634ef1e15e7155e303b47f855ae0e3928fb50f822e8"
+
+[[files]]
+file = "config/attributefix/dungeon_heroes/poison_damage.json"
+hash = "6a50a28a3820a8085fb2d43b0b3ba718ff8d9e0df9800e855d540c3c7a82d862"
+
+[[files]]
+file = "config/attributefix/dungeon_heroes/soul_fuse.json"
+hash = "2f085544def0f7cf423b77bc5d175faa51fcf398b0b57801e22a3283ac8211ba"
+
+[[files]]
 file = "config/attributefix/eternal_starlight/generic.ether_resistance.json"
 hash = "17ef1233e3020b53a3835793bc771c00114af5b167f57cb03506098dbc49e535"
 
@@ -574,11 +610,11 @@ hash = "17ef1233e3020b53a3835793bc771c00114af5b167f57cb03506098dbc49e535"
 
 [[files]]
 file = "config/attributefix/more_rpg_classes/air_fuse_modifier.json"
-hash = "db1e83aab19863c53131bb6795966da53305ab1cb688fb332eaa11bd0c3ec69f"
+hash = "1c069dd48b2e55ceee1c805cb4454d2c1a87c5d45bf2f9c45a03cb778f7e6b0b"
 
 [[files]]
 file = "config/attributefix/more_rpg_classes/arcane_fuse_modifier.json"
-hash = "db1e83aab19863c53131bb6795966da53305ab1cb688fb332eaa11bd0c3ec69f"
+hash = "1c069dd48b2e55ceee1c805cb4454d2c1a87c5d45bf2f9c45a03cb778f7e6b0b"
 
 [[files]]
 file = "config/attributefix/more_rpg_classes/armor_piercing.json"
@@ -598,11 +634,11 @@ hash = "db1e83aab19863c53131bb6795966da53305ab1cb688fb332eaa11bd0c3ec69f"
 
 [[files]]
 file = "config/attributefix/more_rpg_classes/earth_fuse_modifier.json"
-hash = "db1e83aab19863c53131bb6795966da53305ab1cb688fb332eaa11bd0c3ec69f"
+hash = "1c069dd48b2e55ceee1c805cb4454d2c1a87c5d45bf2f9c45a03cb778f7e6b0b"
 
 [[files]]
 file = "config/attributefix/more_rpg_classes/fire_fuse_modifier.json"
-hash = "db1e83aab19863c53131bb6795966da53305ab1cb688fb332eaa11bd0c3ec69f"
+hash = "1c069dd48b2e55ceee1c805cb4454d2c1a87c5d45bf2f9c45a03cb778f7e6b0b"
 
 [[files]]
 file = "config/attributefix/more_rpg_classes/freeze_chance.json"
@@ -610,11 +646,11 @@ hash = "2f085544def0f7cf423b77bc5d175faa51fcf398b0b57801e22a3283ac8211ba"
 
 [[files]]
 file = "config/attributefix/more_rpg_classes/frost_fuse_modifier.json"
-hash = "db1e83aab19863c53131bb6795966da53305ab1cb688fb332eaa11bd0c3ec69f"
+hash = "1c069dd48b2e55ceee1c805cb4454d2c1a87c5d45bf2f9c45a03cb778f7e6b0b"
 
 [[files]]
 file = "config/attributefix/more_rpg_classes/healing_fuse_modifier.json"
-hash = "db1e83aab19863c53131bb6795966da53305ab1cb688fb332eaa11bd0c3ec69f"
+hash = "1c069dd48b2e55ceee1c805cb4454d2c1a87c5d45bf2f9c45a03cb778f7e6b0b"
 
 [[files]]
 file = "config/attributefix/more_rpg_classes/lifesteal_modifier.json"
@@ -646,7 +682,7 @@ hash = "2f085544def0f7cf423b77bc5d175faa51fcf398b0b57801e22a3283ac8211ba"
 
 [[files]]
 file = "config/attributefix/more_rpg_classes/water_fuse_modifier.json"
-hash = "db1e83aab19863c53131bb6795966da53305ab1cb688fb332eaa11bd0c3ec69f"
+hash = "1c069dd48b2e55ceee1c805cb4454d2c1a87c5d45bf2f9c45a03cb778f7e6b0b"
 
 [[files]]
 file = "config/attributefix/ranged_weapon/damage.json"
@@ -770,7 +806,7 @@ hash = "9e69509e40c57dd591c9d952f4927b064567a0d9c2228bb5e9510e599888da5a"
 
 [[files]]
 file = "config/awesomedungeon_1.properties"
-hash = "4effe285ecefe0898ee84ea4ecd0ea70b8c80f08f10095f0fd34920f3b551037"
+hash = "0ef68edfa8ba4e60d82d9da43d77c30b224d64f968a880d3c1f5b1f6fb88dd7a"
 
 [[files]]
 file = "config/awesomedungeonnether_1.properties"
@@ -990,7 +1026,7 @@ hash = "e268bc455030f58f5298ffb594c577123245c88facf0825e58b63e10aa59122b"
 
 [[files]]
 file = "config/bettervillage_1.properties"
-hash = "c6467b45168f441de88c49b6a6fa52646b47962148b18448c81abc5b0bbffcde"
+hash = "0336b7f163807cc365cf492d017bc3e80e6f2b9a99cf71c8963dda7186eefd55"
 
 [[files]]
 file = "config/betterwitchhuts-fabric-1_21.toml"
@@ -1746,7 +1782,7 @@ hash = "be5577660e0c70eade906c87f1797c1b3e9522a7d8d722dd1db13ef5a3f4b35e"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "3f3d8340afe6fa8e6006f9fa3c22f387cf1d0aa023c24d977aeaf53ca92541b7"
+hash = "766c6a3eaaf73a455f21b91e8831ba8c1c776961bbac137509cbfcdd04447ee8"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -2106,7 +2142,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "93c0250cfceefeb809e8293d877f486dbb0053cf00d72c1c9761a49389f4015e"
+hash = "07af2dac4d902a16976ca4e7c82860617a8f845660e10111e0254c47147c3251"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
@@ -2202,7 +2238,7 @@ hash = "6814fc05aa8d6664712b056cfd6cb51cb4bafeabe3f274b9cf5e19e27eff406d"
 
 [[files]]
 file = "config/libraryferret_1.properties"
-hash = "33d49ab1f9b0381a589a44976886c341174c098d4dd5d07839828c6e17ef90d7"
+hash = "7264dd27231f119911abe49532380c29fc74dd00766eb547d217763da3dc3d72"
 
 [[files]]
 file = "config/lithium.properties"
@@ -2338,11 +2374,11 @@ hash = "88e3ee984d86ee074c45496c7006ab2394ad50de30531d4c3758c0739af27eb8"
 
 [[files]]
 file = "config/lootsight-filters.json"
-hash = "e6655bb67918840d08fba29bd3844889f73f94688d75d08ab2d1f34af1b30a95"
+hash = "5622f83ef2fec1185c03afc75321d9d5d3ce13d7f7864148d49a47939ffed83d"
 
 [[files]]
 file = "config/lootsight.json"
-hash = "9e67bbcc9fc59c3a55a0ed42a475e58c4045bd6fea7c57f020b903b6d4669c74"
+hash = "ac00f6d4b3eda3cf4af7e749ffbe4656b74596ada0c8bfd0c43843d092e5c252"
 
 [[files]]
 file = "config/maxhealthfix.json"
@@ -2586,7 +2622,7 @@ hash = "d88b9f565ca099f3eaeab576ffbc48179fd26cdfc3da03b4a6bcd06a831a0f76"
 
 [[files]]
 file = "config/more_rpg_classes/elemental_weaknesses.json"
-hash = "3a7fd62fa051446197d9c7799fe407da8431fabfd13ee0b9f97186b871272d54"
+hash = "c5b9db612e2b0003b60a35d2fedd588200c4054f0a496a7a4a16da30d7fec1f4"
 
 [[files]]
 file = "config/more_rpg_classes/loot.json"
@@ -2614,11 +2650,11 @@ hash = "c44243b05b0178794f2f54f18fd600551cef3439847d0c3afd30b91143d504b5"
 
 [[files]]
 file = "config/naturalist-client.properties"
-hash = "a8da3facac0fcf9c7d76e0eba20ec017eb9245bfd716a4a055c65f433088cfc1"
+hash = "f7fe8e24f7de4622bc0bd0727b33bfd51143d431741cfe541c8bc367c22f51d5"
 
 [[files]]
 file = "config/naturalist-server.properties"
-hash = "f67c2b4f62f72b2885b277c7fb42a744b252304b53d6a786378d0e64567df0bd"
+hash = "5aee107a1dfac0d2cb6454d8c160468ddddc44196f7d7df452a51747bee26cca"
 
 [[files]]
 file = "config/necronomicon.json5"
@@ -2886,7 +2922,7 @@ hash = "cbbe02482b857f1d1c460649a935a6232ce6ad17680f52949330e4a3036eaf9d"
 
 [[files]]
 file = "config/spell_engine/elemental_weaknesses.json"
-hash = "6979c988ceab84dfaca3aacb4c60cfe067987f6a323c8eaddb911ffa9a257219"
+hash = "43b533c698150d13904428fb13a158e1d068d9d166eb1cbec2f743322d25767c"
 
 [[files]]
 file = "config/spell_engine/fabric_compatibility.json"
@@ -3158,7 +3194,7 @@ hash = "dac2152a43f1e94e8ec823fc45188c37eb84175662b9aa0cddf431003a44aed0"
 
 [[files]]
 file = "config/witcher_rpg/elemental_weaknesses.json"
-hash = "dac235ceb1f833259b8a1a4de22b53f78172b969d94ec8f86295c78adb923a45"
+hash = "f1e185086bd7c7040d3f4137f65011bc403c20b06f28e8a30f52ebd9309305da"
 
 [[files]]
 file = "config/witcher_rpg/equipment_v4.json"
@@ -4186,6 +4222,10 @@ metafile = true
 file = "mods/loot-n-explore.pw.toml"
 hash = "089e05deac808b8cf6ed2648d3309ca0442c8c55dd0e5cde082a499e8fdc4a79"
 metafile = true
+
+[[files]]
+file = "mods/lootsight.jar"
+hash = "815f8f1cd1271c4ad18e76ccb679b1b62a1967db032bb701577d41ef60ee8c43"
 
 [[files]]
 file = "mods/mages-guild-rpg-structures.pw.toml"
