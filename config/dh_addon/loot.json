@@ -1,0 +1,11 @@
+{
+  "mob_rolls": 2.0,
+  "boss_rolls": 3.0,
+  "chest_rolls": 2.0,
+  "boss_rare_pool_rolls": 2.5,
+  "boss_luck_per_point": 0.25,
+  "boss_tables": [
+    "bosses_of_mass_destruction:chests/gauntlet",
+    "bosses_of_mass_destruction:chests/obsidilith"
+  ]
+}

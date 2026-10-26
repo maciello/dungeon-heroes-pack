@@ -93,6 +93,38 @@
             }
           ],
           "experience_multiplier": 0.2
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "type": "#c:bosses"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.15,
+              "offset": 1.25
+            }
+          ],
+          "experience_multiplier": 0.0
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "type": "minecraft:warden"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.15,
+              "offset": 1.25
+            }
+          ],
+          "experience_multiplier": 0.0
         }
       ]
     },
@@ -336,6 +368,30 @@
           "difficulty": {
             "name": "dungeon",
             "level": 3
+          }
+        },
+        {
+          "entity_type": "bosses_of_mass_destruction:void_blossom",
+          "loot_table": "bosses_of_mass_destruction:entities/void_blossom",
+          "difficulty": {
+            "name": "dungeon",
+            "level": 3
+          }
+        },
+        {
+          "entity_type": "formidulus:deer_god",
+          "loot_table": "formidulus:entities/deer_god",
+          "difficulty": {
+            "name": "dungeon",
+            "level": 3
+          }
+        },
+        {
+          "entity_type": "loot_n_explore:frost_monarch",
+          "loot_table": "loot_n_explore:entities/frost_monarch",
+          "difficulty": {
+            "name": "dungeon",
+            "level": 2
           }
         }
       ]

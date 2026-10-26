@@ -1585,6 +1585,10 @@ file = "config/debugify.json"
 hash = "70785772d8e66e1b75fa58ef0ceff1b598a78a025b05908ffd03c66cb6a1216d"
 
 [[files]]
+file = "config/dh_addon/loot.json"
+hash = "ee1f0162e961e12f51dfe58c807b2233f2f2832a6e15c060ea0b1e626697d06d"
+
+[[files]]
 file = "config/distraction_free_recipes-client.toml"
 hash = "1ac3e06b909d5fdcfb07405da21a1c546df068af8f910dd2c78bbb77a04b16e0"
 
@@ -1610,7 +1614,7 @@ hash = "b95693a79e0fcd4fe85ec7014ec6ece223f3688e128f47fa2d8fd9f946bfceed"
 
 [[files]]
 file = "config/dungeon_difficulty/difficulty_v2.json"
-hash = "fc73672f9c6acfa5b0b28366434523b1b24201b53f0d71f895daffb78463a9b9"
+hash = "5a0585a5e9cccc5d266acc2b170d09eb896267bfa63b06df552cc21eccf6551e"
 
 [[files]]
 file = "config/durability_tweaks.json"
@@ -3497,7 +3501,7 @@ hash = "1de54e56a4ca7d4208b71a5468bb1ef34fa29fef5d08e84dc39bbca0a471d7b2"
 
 [[files]]
 file = "mods/Endless Inventory-fabric-1.21.1-1.1.4-serverfix.jar"
-hash = "14856234773eeeec5b0842798f9458decdf4ded7efa32b0ae349b3902c5786d9"
+hash = "ca1a81f7cdc46f9b33126705b7e3b866ab1d58f9554379c28c68c9f5cf853f98"
 
 [[files]]
 file = "mods/achievements-optimizer.pw.toml"
@@ -3776,7 +3780,7 @@ metafile = true
 
 [[files]]
 file = "mods/dh_addon.jar"
-hash = "aa7eadb2296fc393b6b35354800b8eaa0f62b6e051d22f313c9f69a1e61539cf"
+hash = "a926fa2bacca8b84e721ac5905ef2046d5800124129ee658d901954e960e7504"
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
