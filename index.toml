@@ -3501,7 +3501,7 @@ hash = "1de54e56a4ca7d4208b71a5468bb1ef34fa29fef5d08e84dc39bbca0a471d7b2"
 
 [[files]]
 file = "mods/Endless Inventory-fabric-1.21.1-1.1.4-serverfix.jar"
-hash = "ca1a81f7cdc46f9b33126705b7e3b866ab1d58f9554379c28c68c9f5cf853f98"
+hash = "e0d3d00b0d4ec8f88e88ec9e7cbbe3bdba3b1190dd33ebaa57e7ca3a27e54245"
 
 [[files]]
 file = "mods/achievements-optimizer.pw.toml"
