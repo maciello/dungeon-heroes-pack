@@ -1730,7 +1730,7 @@ hash = "30adbb6bfcc854c81b9b6d6c55061adf720f813f76ff74c8cce2680d8c981900"
 
 [[files]]
 file = "config/endless_inventory-server.json"
-hash = "cad2ed09750445dafedbede1f4037f5e1e5d500ef575c40a2df3cb4e0684c4cc"
+hash = "eed5a6662176d3879c4335ca53a09351905f16c614923f8b0611bcdfa6308a52"
 
 [[files]]
 file = "config/enhanced_bes.properties"
@@ -3497,7 +3497,7 @@ hash = "1de54e56a4ca7d4208b71a5468bb1ef34fa29fef5d08e84dc39bbca0a471d7b2"
 
 [[files]]
 file = "mods/Endless Inventory-fabric-1.21.1-1.1.4-serverfix.jar"
-hash = "4312cff537b89eaceb3fd2688f76fcd1d50b70e2eb631cf70b520e2a48877d4b"
+hash = "ac8224bc6802a11f12133755a436b320f57341b4e592be133e767cc27d50ec10"
 
 [[files]]
 file = "mods/achievements-optimizer.pw.toml"
