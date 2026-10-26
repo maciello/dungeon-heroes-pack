@@ -1614,7 +1614,7 @@ hash = "b95693a79e0fcd4fe85ec7014ec6ece223f3688e128f47fa2d8fd9f946bfceed"
 
 [[files]]
 file = "config/dungeon_difficulty/difficulty_v2.json"
-hash = "5a0585a5e9cccc5d266acc2b170d09eb896267bfa63b06df552cc21eccf6551e"
+hash = "4fcad61034da20478036a4e828a9b8011c5d46519e2defea1b36c7a4cdc37177"
 
 [[files]]
 file = "config/durability_tweaks.json"
@@ -3501,7 +3501,7 @@ hash = "1de54e56a4ca7d4208b71a5468bb1ef34fa29fef5d08e84dc39bbca0a471d7b2"
 
 [[files]]
 file = "mods/Endless Inventory-fabric-1.21.1-1.1.4-serverfix.jar"
-hash = "e0d3d00b0d4ec8f88e88ec9e7cbbe3bdba3b1190dd33ebaa57e7ca3a27e54245"
+hash = "781979b123364f36038045ca03b355fd340f59d77d0be42f55b4bf280199dbf3"
 
 [[files]]
 file = "mods/achievements-optimizer.pw.toml"
