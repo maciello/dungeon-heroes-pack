@@ -60,7 +60,7 @@
               "attribute": "generic.max_health",
               "operation": "MULTIPLY_BASE",
               "randomness": 0.0,
-              "value": 0.5,
+              "value": 1.2,
               "offset": 2.0
             }
           ],
@@ -76,7 +76,7 @@
               "attribute": "generic.max_health",
               "operation": "MULTIPLY_BASE",
               "randomness": 0.0,
-              "value": 0.5,
+              "value": 1.2,
               "offset": 2.0
             }
           ],
@@ -106,8 +106,8 @@
               "attribute": "generic.max_health",
               "operation": "MULTIPLY_BASE",
               "randomness": 0.1,
-              "value": 0.35,
-              "offset": -0.25
+              "value": 1.1,
+              "offset": 1.5
             },
             {
               "attribute": "generic.armor",
