@@ -53,6 +53,38 @@
         {
           "entity_matches": {
             "attitude": "ANY",
+            "type": "#c:bosses"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.5,
+              "offset": 2.0
+            }
+          ],
+          "experience_multiplier": 0.0
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "type": "minecraft:warden"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.5,
+              "offset": 2.0
+            }
+          ],
+          "experience_multiplier": 0.0
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
             "type": ""
           },
           "attributes": [
@@ -93,38 +125,6 @@
             }
           ],
           "experience_multiplier": 0.2
-        },
-        {
-          "entity_matches": {
-            "attitude": "ANY",
-            "type": "#c:bosses"
-          },
-          "attributes": [
-            {
-              "attribute": "generic.max_health",
-              "operation": "MULTIPLY_BASE",
-              "randomness": 0.0,
-              "value": 0.15,
-              "offset": 2.25
-            }
-          ],
-          "experience_multiplier": 0.0
-        },
-        {
-          "entity_matches": {
-            "attitude": "ANY",
-            "type": "minecraft:warden"
-          },
-          "attributes": [
-            {
-              "attribute": "generic.max_health",
-              "operation": "MULTIPLY_BASE",
-              "randomness": 0.0,
-              "value": 0.15,
-              "offset": 2.25
-            }
-          ],
-          "experience_multiplier": 0.0
         }
       ]
     },

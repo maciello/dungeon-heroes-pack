@@ -1614,7 +1614,7 @@ hash = "b95693a79e0fcd4fe85ec7014ec6ece223f3688e128f47fa2d8fd9f946bfceed"
 
 [[files]]
 file = "config/dungeon_difficulty/difficulty_v2.json"
-hash = "4fcad61034da20478036a4e828a9b8011c5d46519e2defea1b36c7a4cdc37177"
+hash = "7e74103e22759a2d7c5d6829543c1a227e5fccddd661bb433a64cdcda621ee54"
 
 [[files]]
 file = "config/durability_tweaks.json"
